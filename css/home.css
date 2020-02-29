@@ -19,6 +19,17 @@ body
     margin-right: 35%;
 }
 
+.div-navbar
+{
+    height: 30%;
+    background-color: rgb(216, 215, 209);
+}
+
+.div-navbar ul li
+{
+    list-style-type: none;
+}
+
 .input
 {
     height: 45px;
