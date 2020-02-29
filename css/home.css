@@ -13,11 +13,10 @@ body
     background-color: orange;
 }
 
-.nav-1
+#div-sup img
 {
-    display: flex;
-    margin-left: 35%;
-    /*border: 1px solid black;*/
+    margin-left: 3%;
+    margin-right: 35%;
 }
 
 .input
@@ -30,4 +29,10 @@ body
 {
     height: 45px;
     width: 40px;
+}
+
+.row 
+{
+    margin-top: 5%;
+    /*border: 1px solid black;*/
 }
