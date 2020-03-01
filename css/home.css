@@ -19,10 +19,24 @@ body
     margin-right: 35%;
 }
 
+#nav-1
+{
+    margin-top: 3%;
+}
+
 .div-navbar
 {
-    height: 30%;
-    background-color: rgb(216, 215, 209);
+    /*border: 1px solid black;*/
+    /*margin-top: -4.1%;*/
+    height: 50px;
+    /*background-color: rgb(216, 215, 209);*/
+}
+
+.div-navbar ul
+{
+    margin-left: 10%;
+    width: 78%;
+    /*border: 1px solid black;*/
 }
 
 .div-navbar ul li
@@ -33,7 +47,7 @@ body
 .input
 {
     height: 45px;
-    width: 220px;
+    width: 300px;
 }
 
 .button
@@ -42,8 +56,4 @@ body
     width: 40px;
 }
 
-.row 
-{
-    margin-top: 5%;
-    /*border: 1px solid black;*/
-}
+
