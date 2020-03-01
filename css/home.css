@@ -10,7 +10,7 @@ body
     display: flex;
     width: 100%;
     height: 20%;
-    background-color: orange;
+    background-color: #ffc107;
 }
 
 #div-sup img
@@ -24,19 +24,35 @@ body
     margin-top: 3%;
 }
 
+#btn-sair
+{
+    border: none;
+    height: 40px;
+    width: 70px;
+    border-radius: 8px;
+    background-color: #17a2b8;
+    color: white;
+}
+
+#btn-sair:hover
+{ 
+    background-color: rgb(14, 77, 88);
+}
+
+#label
+{
+    color: white;
+}
+
 .div-navbar
 {
-    /*border: 1px solid black;*/
-    /*margin-top: -4.1%;*/
     height: 50px;
-    /*background-color: rgb(216, 215, 209);*/
 }
 
 .div-navbar ul
 {
     margin-left: 10%;
     width: 78%;
-    /*border: 1px solid black;*/
 }
 
 .div-navbar ul li
@@ -48,12 +64,21 @@ body
 {
     height: 45px;
     width: 300px;
+    border: 1px solid #17a2b8;
+    border-radius: 15px 0px 0px 15px;
+    border-right: none;
+    padding-left: 5%;
 }
 
 .button
 {
+    border: 1px solid #17a2b8;
+    border-radius: 0px 15px 15px 0px;
+    border-left: none;
     height: 45px;
     width: 40px;
+    color: #17a2b8;
+    background-color: white;  
 }
 
 
