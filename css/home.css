@@ -16,13 +16,14 @@ body
 #div-sup img
 {
     margin-left: 3%;
-    margin-right: 35%;
+    margin-right: 5%;
 }
 
 #nav-1
 {
     margin-top: 3%;
 }
+
 
 #btn-sair
 {
@@ -80,5 +81,17 @@ body
     color: #17a2b8;
     background-color: white;  
 }
+
+@media(max-width: 968px)
+{
+    .input
+    { 
+       width: 250px;
+    }
+}
+
+
+
+
 
 
