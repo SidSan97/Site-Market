@@ -24,7 +24,6 @@ body
     margin-top: 3%;
 }
 
-
 #btn-sair
 {
     border: none;
@@ -67,6 +66,7 @@ body
 {
     margin-left: 10%;
     width: 78%;
+    text-align: center;
 }
 
 .div-navbar ul li
