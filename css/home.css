@@ -95,6 +95,11 @@ body
     border: rgba(221, 220, 220, 0.815) 1px solid;
 }
 
+.produtos:hover
+{
+    border: 1px solid rgb(151, 151, 151);
+}
+
 .inf-text {margin-left: 6%;}
 
 .inf-text h1
