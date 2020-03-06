@@ -12,17 +12,6 @@ body
     height: 20%;
 }
 
-#div-sup img
-{
-    margin-left: 3%;
-    margin-right: 5%;
-}
-
-#nav-1
-{
-    margin-top: 3%;
-}
-
 #btn-sair
 {
     border: none;
@@ -56,6 +45,48 @@ body
     width: 50%; 
 }
 
+#img-sale
+{
+    /*border: 1px solid black;*/
+    width: 100%;
+    height: 35vh;
+    margin-bottom: 2%;
+}
+
+#ofertas h3
+{
+    margin-left: 3%;
+    margin-bottom: 2%;
+}
+
+#ofertas h6
+{
+    color: #515c6f;
+}
+
+#ofertas article
+{
+    color: #515c6f;
+}
+
+#ofertas article h4
+{
+    color: red;
+}
+
+#ofertas article span
+{
+    color: green;
+}
+
+.produtos
+{
+    /*min-height: 350px;*/
+    /*width: 200px;*/
+    border-radius: 8px;
+    border: rgba(221, 220, 220, 0.815) 1px solid;
+}
+
 .div-navbar
 {
     height: 50px;
@@ -63,8 +94,7 @@ body
 
 .div-navbar ul
 {
-    margin-left: 10%;
-    width: 78%;
+    width: 100%;
     text-align: center;
 }
 
@@ -116,4 +146,12 @@ body
         width: 80%;
         margin-bottom: 2%;
     }
+
+    .div-navbar ul
+    {
+       margin-top: 2%;
+       width: 100%;
+       text-align: center;
+   }
+
 }
