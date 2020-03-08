@@ -28,3 +28,21 @@
     height: 400px;
 }
 
+.precos
+{
+    color: #515c6f;
+    font-size: 15pt;
+}
+
+.precos h4
+{
+    color: red;
+    font-weight: bold;
+    font-size: 20pt;
+}
+
+.precos span
+{
+    color: green;
+}
+
