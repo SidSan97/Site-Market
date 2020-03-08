@@ -180,4 +180,26 @@ body
        text-align: center;
    }
 
+   /*#ofertas article
+     {
+         float: right;
+     }
+
+     #ofertas h6
+     {
+         float: right;
+         width: 155px;
+     }
+
+     #ofertas img
+     {
+         height: 250px;
+     }*/
+
+}
+
+@media(max-width: 567px)
+{
+    
+
 }
