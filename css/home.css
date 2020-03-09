@@ -99,6 +99,8 @@ body
 
 #rodape 
 {
+  position: absolute;  
+  width: 100%;  
   min-height: 150px;
   background-color: white;  
   color: #fff; 
