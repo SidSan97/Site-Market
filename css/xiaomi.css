@@ -71,6 +71,21 @@
     padding: 8px;
 }
 
+#comentarios
+{
+    background-color: white;
+    border-radius: 10px; 
+    margin-bottom: 3%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+
+#comentarios h5
+{
+    font-weight: 700;
+    font-family: Montserrat,sans-serif;
+}
+
 .produto
 {
     /*width: 350px;*/
