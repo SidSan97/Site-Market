@@ -109,6 +109,23 @@
     color: black;
 }
 
+#rodape
+{
+    background-color: #17a2b8;
+    color: blanchedalmond;
+    padding-bottom: 4%;
+    padding-top: 4%;
+}
+
+#rodape a
+{
+    color: blanchedalmond;
+}
+
+#rodape i
+{
+    font-size: 22pt;
+}
 
 .produto
 {
