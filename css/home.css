@@ -97,13 +97,11 @@ body
     background-color: white;  
 }
 
-#rodape 
+#rodape-inf 
 {
   position: absolute;  
   width: 100%;  
-  min-height: 150px;
-  background-color: white;  
-  color: #fff; 
+  padding-top: 2%;
 }  
 
 .produtos
@@ -181,27 +179,4 @@ body
        width: 100%;
        text-align: center;
    }
-
-   /*#ofertas article
-     {
-         float: right;
-     }
-
-     #ofertas h6
-     {
-         float: right;
-         width: 155px;
-     }
-
-     #ofertas img
-     {
-         height: 250px;
-     }*/
-
-}
-
-@media(max-width: 567px)
-{
-    
-
 }
