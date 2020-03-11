@@ -85,6 +85,30 @@
     font-weight: 700;
     font-family: Montserrat,sans-serif;
 }
+#comentarios h5
+{
+    font-weight: 700;
+    font-family: Montserrat,sans-serif;
+}
+
+#comentarios input
+{
+    font-weight: 700;
+    font-family: Montserrat,sans-serif;
+    border-radius: 24px;
+    background-color: #ff4d4d;
+    padding: 5px;
+    box-shadow: 0 8px 15px rgba(114,124,142,.36);
+    border: none;
+    color: white;
+
+}
+
+#comentarios input:hover
+{
+    color: black;
+}
+
 
 .produto
 {
