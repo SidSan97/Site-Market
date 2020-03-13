@@ -8,9 +8,29 @@
 {
     background-color: #17a2b8;;
     color: blanchedalmond;
+    text-align: center;
 }
 
 #div-sup a
 {
     color: white;
+}
+
+#tabela-produto
+{
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 2%;
+    padding-bottom: 0.3%;
+    text-align: center;
+}
+
+.btn-del
+{
+    background-color: rgba(255, 0, 0, 0.801);
+    border: 1px solid rgb(138, 138, 138); 
+    padding: 5px 10px;
+    border-radius: 50%;
+    font-family: Times;
+    color: rgb(253, 249, 249);
 }

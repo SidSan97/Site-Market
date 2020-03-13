@@ -5,26 +5,124 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css.map">
+    <link rel="stylesheet" type="text/css" href="css/booditstrap.min.css.map">
     <link rel="stylesheet" type="text/css" href="css/tema.css">
     <link rel="stylesheet" type="text/css" href="css/all.css">
     <link rel="stylesheet" type="text/css" href="css/carrinho.css">
 
-
     <title> Carrinho </title>
 </head>
- <body>
+ <body style="background-color: rgb(231, 230, 228);">
     <section id="div-sup">
         <div class="container">
-           <div class="row">
-            <p class="col-4"><i class="far fa-user-circle"></i> Faça seu <a href="#">login ou Cadastre-se</a></p>
-            <p class="col-4">Atendimento ao Cliente</p>
-            <p class="col-4" style="color: yellow;">BAIXE O NOSSO APP</p>
+           <div class="row mb-5" style="padding-top: 8px;">
+              <div class="col-3">
+                <i class="far fa-user-circle"></i> Faça seu <a href="#">login ou cadastre-se</a>
+              </div>
 
+              <div class="col-9" style="display: flex;">
+                <p class="mr-5 offset-md-7"> ATENDIMENTO </p>
+                <span style="color: yellow; font-weight: bold;"> BAIXE NOSSO APP </span>
+              </div>
            </div>
         </div>
     </section>
     
+    <div class="container">
+        <div class="row">
+          <div class="col-12 mb-2">
+            <h3 style="color: rgb(99, 99, 99);"> Carrinho </h3>
+          </div>
+        </div>
+    </div>
+
+    <!--section style="border: black 1px solid;">
+       <div class="container" id="tabela-produto">
+           <div class="row">
+               <div class="col-4"> 
+                   <h4>PRODUTO</h4> <br>                 
+                        <img src="assets/xiaomi.jpg" width="64px" height="64px" align="left">
+                            <span>
+                            <p align="left">
+                                Xiaomi Mi 9 Lite Dual SIM 128 GB Branco-pérola
+                                6 GB RAM câmera de 48 megapixel 
+                            </p>
+                            </span>
+               </div>
+
+               <div class="col-sm-2">
+                   <h4> FRETE </h4> <br>
+                        <p> entregue em até <span style="font-weight: bold;"> dia útil R$ 0,00 </span></p>
+               </div> 
+
+               <div class="col-sm-1">
+                    <h4> QTD </h4> <br>
+                        <input type="number" id="quantity" name="quantity" min="1" max="5" value="1">
+               </div>
+          
+               <div class="col-sm-2">
+                    <h4> UNITÁRIO </h4> <br>
+                        <h3>R$ 999,00</h3>
+               </div>
+
+               <div class="col-sm-2">
+                    <h4> TOTAL </h4> <br>
+                        <h3 style="color: red;">R$ 999,00</h3>
+               </div>
+               
+           </div>
+       </div>
+   </section-->
+
+   <section>
+        <div class="container" id="tabela-produto">
+            <div class="row">
+                <table class="table">
+                    <thead class="thead-dark mb-4">
+                      <tr>                       
+                        <th scope="col">PRODUTO</th>
+                        <th scope="col">FRETE</th>
+                        <th scope="col">QTD</th>
+                        <th scope="col">UNITÁRIO</th>
+                        <th scope="col">TOTAL</th>
+                        <th scope="col"> </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>                     
+                        <td>
+                            <img src="assets/xiaomi.jpg" width="64px" height="64px" alt="Xiaomi" align="left">
+                                Xiaomi Mi 9 Lite Dual SIM 128 GB Branco-pérola <br>
+                                6 GB RAM câmera de 48 megapixel 
+                        </td>
+
+                        <td>
+                            <p> entregue em até <span style="font-weight: bold;"> dia útil R$ 0,00 </span></p>
+                        </td>
+
+                        <td>
+                            <input type="number" id="quantity" name="quantity" min="1" max="5" value="1">
+                        </td>
+
+                        <td>
+                            <h5>R$ 999,00</h5>
+                        </td>
+
+                        <td>
+                            <h5 style="color: red;">R$ 999,00</h5>
+                        </td>
+
+                        <td>
+                            <button class="btn-del" id="btn-buy"> X </button>
+                        </td>
+                      </tr>                     
+                    </tbody>
+                  </table>                           
+            </div>
+        </div>
+   </section>
+
+
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/popper.js"></script>
     <script src="js/bootstrap.js"></script>
