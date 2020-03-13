@@ -74,9 +74,8 @@
        </div>
    </section-->
 
-   <section>
         <div class="container" id="tabela-produto">
-            <div class="row">
+            <div class="table-responsive-xl">
                 <table class="table">
                     <thead class="thead-dark mb-4">
                       <tr>                       
@@ -97,7 +96,7 @@
                         </td>
 
                         <td>
-                            <p> entregue em até <span style="font-weight: bold;"> dia útil R$ 0,00 </span></p>
+                            <p> entregue em até <br><span style="font-weight: bold;"> dia útil R$ 0,00 </span></p>
                         </td>
 
                         <td>
@@ -118,10 +117,24 @@
                       </tr>                     
                     </tbody>
                   </table>                           
+            </div>     
+        </div>
+
+        <div class="container">
+            <div class="row mt-3">
+                <div class="col">
+                    CONSULTE O FRETE 
+                    <input type="text" name="CEP" style="background-color: rgb(167, 167, 167); padding-left: 1%; border: none; border-radius: 2px;">
+                    <input type="submit" class="btn-frete" value="OK">
+                </div>
+
+                <div class="col">               
+                    CUMPOM DE DESCONTO
+                    <input type="text" name="desconto" style="background-color: rgb(167, 167, 167); padding-left: 1%; border: none; border-radius: 2px;">
+                    <input type="submit" class="btn-frete" value="OK">
+                </div>
             </div>
         </div>
-   </section>
-
 
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/popper.js"></script>

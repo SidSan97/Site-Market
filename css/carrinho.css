@@ -25,6 +25,19 @@
     text-align: center;
 }
 
+.btn-frete
+{
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(223, 88, 88);
+    color: white;
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 45px;
+    margin-bottom: 4%;
+    box-shadow: 0 8px 15px rgba(114,124,142,.36);
+}
+
 .btn-del
 {
     background-color: rgba(255, 0, 0, 0.801);
