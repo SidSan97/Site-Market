@@ -4,7 +4,13 @@
     margin: 0;
 }
 
-#id-sup
+#div-sup
 {
-    background-color: black;
+    background-color: #17a2b8;;
+    color: blanchedalmond;
+}
+
+#div-sup a
+{
+    color: white;
 }
