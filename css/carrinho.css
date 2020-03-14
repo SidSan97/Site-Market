@@ -9,11 +9,18 @@
     background-color: #17a2b8;;
     color: blanchedalmond;
     text-align: center;
+    margin-bottom: 4%;
 }
 
 #div-sup a
 {
     color: white;
+}
+
+#nav-sup
+{
+    height: 25px;
+    padding-top: 20px;
 }
 
 #tabela-produto
@@ -64,4 +71,28 @@
 {
     margin-left: 7%;
     margin-top: 2%;
+}
+
+.lista-nav-bar
+{
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+}
+
+@media (max-width: 991px)
+{
+    .lista-nav-bar 
+    {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    #nav-sup
+{
+    height: auto;
+    padding-top: auto;
+}
 }
