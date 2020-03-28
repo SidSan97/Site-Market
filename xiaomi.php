@@ -31,7 +31,7 @@
                   </div>      
   
                       <div id="label">
-                        Login/Cadastro <button id="btn-sair"> <i class="fas fa-user"></i> Entrar </button>
+                        Login/Cadastro <button id="btn-sair"> <i class="fas fa-user"></i> Sair </button>
                      </div>
                 </form>
              </div>
