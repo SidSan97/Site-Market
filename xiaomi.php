@@ -18,7 +18,7 @@
     <section style="background-color: #ffc107;">
         <div class="container">
            <nav class="navbar navbar-expand-lg navbar-light">
-              <a class="navbar-brand" href="#"><img src="assets/logomercado.png" height="80px" width="80px"></a>
+              <a class="navbar-brand" href="index.php"><img src="assets/logomercado.png" height="80px" width="80px"></a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado2" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
                  <span class="navbar-toggler-icon"></span>
               </button>
@@ -69,7 +69,7 @@
                    </li>
   
                    <li class="col-md-2">
-                     <a><i class="fas fa-cart-plus"></i><br> Carrinho </a>
+                     <a href="carrinho.php"><i class="fas fa-cart-plus"></i><br> Carrinho </a>
                    </li>
                    <!769 - 992> <!992 - 1226>
               </ul>
