@@ -48,8 +48,9 @@ color: azure;
 }
 
 .login-form button:hover,.form button:active,.form button:focus {
-background: rgb(38, 209, 240);
+background: rgb(3, 174, 241);
 color: black;
+border: cornsilk 0.5px solid;
 }
 
 .login-form a 
@@ -95,8 +96,8 @@ text-decoration: none;
     font-size: 15px;
 }
 
-.forget {font: normal 10pt Arial; margin-left: 35%; text-decoration: none;}
-.forget a {text-decoration: none;}
+.forget {font: normal 10pt Arial; margin-left: 35%; text-decoration: none; color: white;}
+.forget a {text-decoration: none; color: white;}
 
-.message {margin-left: 20%; font: normal 10pt Arial;}
-.message a { text-decoration: none;}
+.message {margin-left: 20%; font: normal 10pt Arial; color: white;}
+.message a { text-decoration: none; color: white;}
