@@ -95,7 +95,7 @@
                     </h6>   <br>            
                              
                      <article>
-                        de R$ 1.900,00 
+                         <strike>de R$ 1.900,00</strike> 
                         <h4>por R$ 1.180,00</h4>
                         <p>ou <span>12x de R$ 100,00</span> sem juros</p>
                     </article>
