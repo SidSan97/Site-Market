@@ -12,11 +12,11 @@ body
     height: 20%;
 }
 
-#btn-sair
+#btn-user
 {
     border: none;
     height: 40px;
-    width: 70px;
+    width: 75px;
     border-radius: 8px;
     background-color: #17a2b8;
     color: white;
@@ -135,15 +135,28 @@ body
     text-align: center;
 }
 
-.div-navbar ul li
+.div-navbar ul li a:link
 {
     list-style-type: none;
 }
 
-.div-navbar ul li:hover
+.div-navbar ul li a
 {
-    background-color: rgb(250, 250, 250);
+    color: white;
+    text-decoration: none;
+}
+
+.div-navbar ul li:hover 
+{
     color: #fd7e14;
+    background-color: rgb(250, 250, 250);
+    border-radius: 4px;
+}
+
+.div-navbar ul li:hover a
+{
+    color: #fd7e14;
+    background-color: rgb(250, 250, 250);
     border-radius: 4px;
 }
 
