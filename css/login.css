@@ -1,0 +1,76 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+
+body {margin: 0%; background: #ffc107; display: flex; justify-content: center;}
+
+h1
+{
+    text-align: center;
+    font-family: Arial;
+}
+
+#div-login {border: 1px solid rgb(141, 138, 138); width: 400px; height: 60%; 
+            background-color: #17a2b8; margin-top: 2%; border-radius: 20px;}
+
+#check 
+{
+   margin-left: 16%;
+   margin-bottom: 5%;
+} 
+
+#checkword {margin-right: 0%;  font: 11pt Arial; color: rgb(107, 108, 109);}
+  
+.input 
+{
+  font-family: Arial;
+  outline: 0;
+  background: #ffffff;
+  width: 70%;
+  border: 1px solid rgba(22, 110, 226, 0.87);
+  margin: 0 0 15px;
+  padding: 13px;
+  box-sizing: border-box;
+  font-size: 14px;
+  margin-left: 15%;
+  border-radius: 6px;
+}
+
+.login-form button
+{
+width: 70%;
+padding: 11px;
+background-color: rgb(48, 111, 206);
+border-radius: 7px;
+margin-left: 15%;
+border: 0;
+font: normal 12pt Arial;
+color: azure;
+}
+
+.login-form button:hover,.form button:active,.form button:focus {
+background: rgb(38, 209, 240);
+color: black;
+}
+
+.login-form a 
+{
+text-decoration: none;
+}
+
+/*.btn2 
+{
+width: 70%;
+padding: 2px;
+margin-left: 15%;
+border: 0.50px solid silver;
+border-radius: 7px;
+font: normal 10pt Arial;
+background: rgba(255, 255, 255, 0.993);
+color: black;
+margin-bottom: 15px;
+}*/
+
+.forget {font: normal 10pt Arial; margin-left: 35%; text-decoration: none;}
+.forget a {text-decoration: none;}
+
+.message {margin-left: 20%; font: normal 10pt Arial;}
+.message a { text-decoration: none;}

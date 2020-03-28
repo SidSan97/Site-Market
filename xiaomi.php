@@ -31,7 +31,7 @@
                   </div>      
   
                       <div id="label">
-                        Login/Cadastro <button id="btn-user"> <i class="fas fa-user"></i> Entrar </button>
+                        Login/Cadastro <button id="btn-user"><a href="login.php"> <i class="fas fa-user"></i> Entrar </a></button>
                      </div>
                 </form>
              </div>
