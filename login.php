@@ -21,7 +21,7 @@
             </label>
 
             <button> <a>Entrar</a> </button>             
-            <h3 style="text-align: center; font-family: Arial;"> OU </h3>
+            <h3 style="text-align: center; font-family: Arial; color: white;"> OU </h3>
 
         </form>
 
@@ -29,19 +29,22 @@
             
                 <button class="btn2">
                     <a>
-                      <img src=""
+                      <img src="logos/facebook-ico.ico">
+                      <span>Entrar com o Facebook</span>
                     </a>
                 </button> 
              
                 <button class="btn2">
                     <a>
-                      
+                      <img src="logos/google-ico.ico">
+                      <span>Entrar com o Google</span>
                     </a> 
                 </button> 
                      
                 <button class="btn2">
                     <a>
-                      
+                      <img src="logos/outlook-ico.ico">
+                      <span>Entrar com Outlook</span>
                     </a>
                 </button> <br>
 

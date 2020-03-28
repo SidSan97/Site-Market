@@ -6,6 +6,7 @@ h1
 {
     text-align: center;
     font-family: Arial;
+    color: white;
 }
 
 #div-login {border: 1px solid rgb(141, 138, 138); width: 400px; height: 60%; 
@@ -56,18 +57,43 @@ color: black;
 text-decoration: none;
 }
 
-/*.btn2 
+.login-altern button
 {
-width: 70%;
-padding: 2px;
-margin-left: 15%;
-border: 0.50px solid silver;
-border-radius: 7px;
-font: normal 10pt Arial;
-background: rgba(255, 255, 255, 0.993);
-color: black;
-margin-bottom: 15px;
-}*/
+    width: 70%;
+    margin-bottom: 2%;
+    background-color: rgb(255, 255, 255);
+    border: 0.5px solid orange;
+    border-radius: 5px;
+    margin-left: 15%;
+    padding: 4px;
+}
+
+.login-altern button:hover 
+{
+    background-color: rgb(65, 176, 228);
+}
+
+.login-altern button a
+{
+    display: flex;
+}
+
+.login-altern button img
+{
+    height: 35px;
+    width: 35px;
+    margin-right: 10%;
+    margin-left: 2%;
+}
+
+.login-altern button a span
+{
+    margin-top: 3%;
+    color: orange;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 15px;
+}
 
 .forget {font: normal 10pt Arial; margin-left: 35%; text-decoration: none;}
 .forget a {text-decoration: none;}
