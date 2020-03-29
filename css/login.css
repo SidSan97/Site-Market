@@ -1,24 +1,44 @@
 @import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
 
-body {margin: 0%; background: #ffc107; display: flex; justify-content: center;}
+body {margin: 0%; background: whitesmoke; /*display: flex; justify-content: center;*/}
 
-h1
+h3
 {
     text-align: center;
     font-family: Arial;
     color: white;
+    margin-bottom: 3%;
 }
 
-#div-login {border: 1px solid rgb(141, 138, 138); width: 400px; height: 60%; 
-            background-color: #17a2b8; margin-top: 2%; border-radius: 20px;}
+.div-navbar
+{
+    margin-bottom: 2%;
+}
+
+#div-login 
+{
+    border: 1px solid rgb(141, 138, 138); 
+    width: 400px; height: 65vh; 
+    background-color: #17a2b8; 
+    border-radius: 20px;
+    padding-top: 2%;
+    margin-left: 20%;
+}
 
 #check 
 {
-   margin-left: 16%;
    margin-bottom: 5%;
 } 
 
-#checkword {margin-right: 0%;  font: 11pt Arial; color: rgb(107, 108, 109);}
+#checkword 
+{
+    margin-right: 0%; 
+    margin-left: 15%; 
+    margin-bottom: 5%;
+    font: 11pt Arial; 
+    color: rgb(252, 252, 252); 
+    width: 50%; 
+}
   
 .input 
 {
@@ -42,6 +62,7 @@ padding: 11px;
 background-color: rgb(48, 111, 206);
 border-radius: 7px;
 margin-left: 15%;
+margin-bottom: 10%;
 border: 0;
 font: normal 12pt Arial;
 color: azure;
@@ -58,46 +79,28 @@ border: cornsilk 0.5px solid;
 text-decoration: none;
 }
 
-.login-altern button
+.forget 
 {
-    width: 70%;
-    margin-bottom: 2%;
-    background-color: rgb(255, 255, 255);
-    border: 0.5px solid orange;
-    border-radius: 5px;
-    margin-left: 15%;
-    padding: 4px;
+    font: normal 10pt Arial; 
+    margin-left: 35%; 
+    text-decoration: none; 
+    color: white;
 }
 
-.login-altern button:hover 
+.forget a 
 {
-    background-color: rgb(65, 176, 228);
+    text-decoration: none; 
+    color: white;
 }
 
-.login-altern button a
+.message 
 {
-    display: flex;
+    margin-left: 20%; 
+    font: normal 10pt Arial; 
+    color: white;
 }
-
-.login-altern button img
-{
-    height: 35px;
-    width: 35px;
-    margin-right: 10%;
-    margin-left: 2%;
+.message a 
+{ 
+    text-decoration: none; 
+    color: white;
 }
-
-.login-altern button a span
-{
-    margin-top: 3%;
-    color: orange;
-    font-family: arial;
-    font-weight: bold;
-    font-size: 15px;
-}
-
-.forget {font: normal 10pt Arial; margin-left: 35%; text-decoration: none; color: white;}
-.forget a {text-decoration: none; color: white;}
-
-.message {margin-left: 20%; font: normal 10pt Arial; color: white;}
-.message a { text-decoration: none; color: white;}
