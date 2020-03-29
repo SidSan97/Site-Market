@@ -20,11 +20,11 @@
       <div class="container">
          <nav class="navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand" href="index.php"><img src="assets/logomercado.png" height="80px" width="80px"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado1" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado3" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
                <span class="navbar-toggler-icon"></span>
             </button>
   
-            <div class="collapse navbar-collapse" id="conteudoNavbarSuportado1">
+            <div class="collapse navbar-collapse" id="conteudoNavbarSuportado3">
               <form id="form" class="form-inline my-2 my-lg-0">
                 <div id="search">
                   <input type="search" placeholder="O que você procura?" id="input">
@@ -81,7 +81,7 @@
   </section>
 
     <div id="div-login">
-        <h3> Já sou cliente </h3>
+        <h3 class="h3"> Já sou cliente </h3>
 
         <form class="login-form">           
             <input class="input"type="text" placeholder="Email ou nº telefone"/>          
@@ -97,6 +97,25 @@
                    <th> <p class="message">Não tem uma conta? <a href="#">Registre-se</a></p> </th>
                    <th><h5 class="forget"> <a href="#"> Esqueci Email/Senha </a></h5> </th>
                 </table>              
+    </div>
+
+    <!Div cadastro>
+    <div id="div-cadastro">
+        <h3 class="h3"> Não sou cliente </h3>
+
+        <form action="" class="cadastro-form">
+           <p class="descricao">
+              Faça seu cadastro no site e aproveite as vantagens em ser nosso cliente!
+           </p>
+
+           <button class="btn-cad">
+             FAZER MEU CADASTRO
+           </button>
+
+           <button class="btn-pesJud">
+             É PESSOA JURIDICA?
+           </button>
+        </form>
     </div>
 
     <script type="text/javascript" src="js/login.js"></script>

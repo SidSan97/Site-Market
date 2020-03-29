@@ -19,6 +19,11 @@ body
     width: 75px;
     border-radius: 8px;
     background-color: #17a2b8;
+}
+
+#btn-user a
+{
+    text-decoration: none;
     color: white;
 }
 
