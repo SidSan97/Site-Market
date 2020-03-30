@@ -22,7 +22,6 @@ body {margin: 0%; background: whitesmoke; /*display: flex; justify-content: cent
     background-color: #17a2b8; 
     border-radius: 20px;
     padding-top: 2%;
-    margin-left: 60%;
 }
 
 #check 
@@ -114,7 +113,6 @@ text-decoration: none;
     background-color: #17a2b8; 
     border-radius: 20px;
     padding-top: 5%;
-    margin-left: 60%;
 } 
 
 .descricao
@@ -130,12 +128,12 @@ text-decoration: none;
 {
     width: 70%;
     padding: 11px;
-    background-color: rgb(48, 111, 206);
+    background-color: orange;
     border-radius: 15px;
     margin-left: 15%;
     margin-bottom: 10%;
     border: 0;
-    color: azure;
+    color: rgb(48, 111, 206);
     font-size: 18px;
     font-family: Montserrat,sans-serif;
     font-weight: 700;
@@ -145,13 +143,14 @@ text-decoration: none;
 {
     width: 70%;
     padding: 11px;
-    background-color: rgb(48, 111, 206);
+    background-color: rgb(255, 255, 255);
+    border: orange 1px solid;
     border-radius: 15px;
     margin-left: 15%;
     margin-bottom: 10%;
-    border: 0;
-    color: azure;
+    color: orange;
     font-size: 18px;
     font-family: Montserrat,sans-serif;
     font-weight: 700;
 }
+

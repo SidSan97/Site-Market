@@ -23,7 +23,7 @@
 
                 <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
                     <ul class="lista-nav-bar" style="width: 100%;">
-                      <li class="col"> <i class="far fa-user-circle"></i> Faça seu <a href="#">login ou cadastre-se</a> </li>
+                      <li class="col"> <i class="far fa-user-circle"></i> Faça seu <a href="login.php">login ou cadastre-se</a> </li>
                       <li class="col"> <a href="#"> ATENDIMENTO </a> </li>
                       <li class="col"> <a href="#" style="color: yellow; font-weight: bold;"> BAIXE NOSSO APP </a> </li>
                     </ul>

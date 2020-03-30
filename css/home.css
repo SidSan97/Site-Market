@@ -173,6 +173,7 @@ body
     border-radius: 15px 0px 0px 15px;
     border-right: none;
     padding-left: 5%;
+    margin-bottom: 1%;
 }
 
 @media(max-width: 1009px)
