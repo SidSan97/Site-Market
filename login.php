@@ -32,7 +32,9 @@
                 </div>      
 
                     <div id="label">
-                       Login/Cadastro <button id="btn-user"><a href="login.php"> <i class="fas fa-user"></i> Entrar </a></button>
+                      <form> 
+                        Login/Cadastro <button id="btn-user"><a href="login.php"> <i class="fas fa-user"></i> Entrar </a></button>
+                      </form>
                    </div>
               </form>
            </div>
