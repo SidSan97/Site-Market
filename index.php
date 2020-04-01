@@ -1,5 +1,6 @@
 <?php
 session_start();
+include('verifica_login.php');
 ?>
 
 <!DOCTYPE html>
@@ -32,11 +33,25 @@ session_start();
                 <div id="search">
                   <input type="search" placeholder="O que você procura?" id="input">
                     <button  type="submit" id="button"> <i class="fas fa-search"></i> </button>
-                </div>      
-
-                    <div id="label">
-                       Login/Cadastro <button id="btn-user"><a href="login.php"> <i class="fas fa-user"></i> Entrar </a></button>
+                </div>  
+                     
+                   <?php
+                     if(isset($_SESSION['nao_autenticado'])):               
+                   ?>
+                   <div id="label">
+                    Login/Cadastro <button id="btn-user"><a href="login.php"> <i class="fas fa-user"></i> Entrar </a></button>
                    </div>
+
+                   <?php
+                      else:
+                        echo " Olá, ".$_SESSION['usuario'];
+                   ?>
+                   <button id="btn-user"><a href="logout.php"> <i class="fas fa-user"></i> Sair </a></button>                 
+                     
+                    <?php
+                      endif;
+                      unset($_SESSION['nao_autenticado']);
+                    ?>                                               
               </form>
            </div>
         </nav>

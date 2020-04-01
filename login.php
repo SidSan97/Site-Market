@@ -35,9 +35,9 @@ session_start();
                     <button  type="submit" id="button"> <i class="fas fa-search"></i> </button>
                 </div>      
 
-                    <div id="label">
+                    <!--div id="label">
                         Login/Cadastro <button id="btn-user"><a href="login.php"> <i class="fas fa-user"></i> Entrar </a></button>
-                   </div>
+                    </div-->
               </form>
            </div>
         </nav>
@@ -89,20 +89,21 @@ session_start();
       <div class="col-lg-4 offset-1 mb-4" id="div-login">
         <h3 class="h3"> Já sou cliente </h3>
 
-          <form class="login-form">           
-            <input class="input"type="text" placeholder="Email ou nº telefone"/>          
-            <input class="input" type="password" placeholder="Senha"/> 
+          <form class="login-form" method="POST" action="login_user.php">           
+            <input class="input" type="text" placeholder="Email ou nº telefone" name="usuario"/>          
+            <input class="input" type="password" placeholder="Senha" name="senha"/> 
             
             <label id="checkword"> 
                 <input type="checkbox" id="check"> Lembrar Senha 
             </label>
 
-            <button> <a>Entrar</a> </button>             
+            <button type="submit"> Entrar </button>             
     
                 <table>
                    <th> <p class="message">Não tem uma conta? <a href="#">Registre-se</a></p> </th>
-                   <th><h5 class="forget"> <a href="#"> Esqueci Email/Senha </a></h5> </th>
-                </table>              
+                   <th> <h5 class="forget"> <a href="#"> Esqueci Email/Senha </a></h5> </th>
+                </table> 
+          </form>                 
       </div>
 
     <!Div cadastro>
