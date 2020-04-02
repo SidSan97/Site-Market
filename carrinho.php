@@ -1,5 +1,6 @@
 <?php
 session_start();
+include('verifica_login.php');
 ?>
 
 <!DOCTYPE html>
@@ -25,13 +26,33 @@ session_start();
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+                <?php
+                  if(isset($_SESSION['nao_autenticado'])):               
+                ?>
+                  <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
                     <ul class="lista-nav-bar" style="width: 100%;">
                       <li class="col"> <i class="far fa-user-circle"></i> Faça seu <a href="login.php">login ou cadastre-se</a> </li>
                       <li class="col"> <a href="#"> ATENDIMENTO </a> </li>
                       <li class="col"> <a href="#" style="color: yellow; font-weight: bold;"> BAIXE NOSSO APP </a> </li>
                     </ul>
-                </div>
+                  </div>
+
+                  <?php 
+                      else:                      
+                  ?>
+
+                    <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+                      <ul class="lista-nav-bar" style="width: 100%;">
+                        <li class="col"> <i class="far fa-user-circle"></i> Olá, <?php echo $_SESSION['usuario'];?> </li>
+                        <li class="col"> <a href="#"> ATENDIMENTO </a> </li>
+                        <li class="col"> <a href="#" style="color: yellow; font-weight: bold;"> BAIXE NOSSO APP </a> </li>
+                      </ul>
+                    </div>
+
+                  <?php
+                    endif;
+                    unset($_SESSION['nao_autenticado']);
+                  ?>         
            </nav>
         </div>
     </section>
