@@ -132,6 +132,8 @@ include('verifica_login.php');
             <h2> R$ 999,00 </h2>
         </span>
 
+        <a href="index.php" class="home">Página Inicial</a>
+
         <section id="rodape">
             <div class="container">
               <div class="row">
