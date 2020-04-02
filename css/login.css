@@ -80,10 +80,11 @@ text-decoration: none;
 
 .forget 
 {
-    font: normal 10pt Arial; 
-    margin-left: 35%; 
+    font: normal 12pt Arial; 
     text-decoration: none; 
     color: white;
+    text-align: left;
+    margin-left: 16%;
 }
 
 .forget a 

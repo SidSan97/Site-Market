@@ -99,11 +99,8 @@ include('verifica_login.php');
             </label>
 
             <button type="submit"> Entrar </button>             
-    
-                <table>
-                   <th> <p class="message">Não tem uma conta? <a href="#">Registre-se</a></p> </th>
-                   <th> <h5 class="forget"> <a href="#"> Esqueci Email/Senha </a></h5> </th>
-                </table> 
+                               
+              <h5 class="forget"> <a href="#"> Esqueci Email / Senha </a></h5> 
           </form>                 
       </div>
 
