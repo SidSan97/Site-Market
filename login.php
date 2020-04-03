@@ -1,6 +1,5 @@
 <?php
 session_start();
-include('verifica_login.php');
 ?>
 
 <!DOCTYPE html>
@@ -97,6 +96,18 @@ include('verifica_login.php');
             <label id="checkword"> 
                 <input type="checkbox" id="check"> Lembrar Senha 
             </label>
+
+              <?php
+                    if(isset($_SESSION['nao_autenticado'])):
+                  ?>
+                    <div class="notification">
+                      <p>ERRO: Usuário ou senha inválidos.</p>
+                    </div>
+                    
+                  <?php
+                    endif;
+                    unset($_SESSION['nao_autenticado']);
+                  ?>
 
             <button type="submit"> Entrar </button>             
                                
