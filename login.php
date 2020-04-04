@@ -125,7 +125,7 @@ session_start();
            </p>
 
            <button class="btn-cad">
-             FAZER MEU CADASTRO
+            <a href="cadastro.php"> FAZER MEU CADASTRO </a>
            </button>
 
            <button class="btn-pesJud">
@@ -171,7 +171,7 @@ session_start();
 
     <div id="rodape-inf" style="background-color: rgb(231, 230, 228);"> 
         <article class="inf-text">
-          <h1>Loja do SidSan</h1>
+          <h3>Loja do SidSan</h3>
           <p>Sidnei Santiago - Todos os direitos reservados</p>
           <p>Salvador, 06/03/2019</p>
           <p><i class="far fa-envelope" style="font-size: 14pt;"></i> sidnei1.8santiago@hotmail.com </p> 

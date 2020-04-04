@@ -168,7 +168,7 @@ include('verifica_login.php');
       
           <div id="rodape-inf" style="background-color: rgb(231, 230, 228);"> 
               <article class="inf-text">
-                <h1>Loja do SidSan</h1>
+                <h3>Loja do SidSan</h3>
                 <p>Sidnei Santiago - Todos os direitos reservados</p>
                 <p>Salvador, 06/03/2019</p>
                 <p><i class="far fa-envelope" style="font-size: 14pt;"></i> sidnei1.8santiago@hotmail.com </p> 

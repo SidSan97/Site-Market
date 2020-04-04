@@ -18,7 +18,75 @@
     <title>Cadastre-se</title>
 </head>
  <body>
+ <section style="background-color: #ffc107;">
+      <div class="container">
+         <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="index.php"><img src="assets/logomercado.png" height="80px" width="80px"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado3" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+  
+            <div class="collapse navbar-collapse" id="conteudoNavbarSuportado3">
+              <form id="form" class="form-inline my-2 my-lg-0">
+                <div id="search">
+                  <input type="search" placeholder="O que você procura?" id="input">
+                    <button  type="submit" id="button"> <i class="fas fa-search"></i> </button>
+                </div>      
+
+                    <!--div id="label">
+                        Login/Cadastro <button id="btn-user"><a href="login.php"> <i class="fas fa-user"></i> Entrar </a></button>
+                    </div-->
+              </form>
+           </div>
+        </nav>
+     </div>
+  </section>
+
+  <section class="div-navbar">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light text-light">
+           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+             <span class="navbar-toggler-icon"></span>
+           </button>
+
+          <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+             <ul class="navbar-nav mr-auto">
+                 <li class="col-md-2">
+                   <a><i class="fas fa-utensils"></i>  <i class="fas fa-wine-bottle"></i><br> Alimentos/Bebidas </a>
+                 </li>
+
+                 <li class="col-md-2">
+                    <a><i class="fas fa-paw"></i><br> Pets </a>
+                 </li>
+
+                 <li class="col-md-2">
+                   <a><i class="fas fa-tv"></i><br> Eletrodomésticos </a>               
+                 </li>
+
+                 <li class="col-md-2">
+                   <a><i class="fas fa-tshirt"></i><br> Vestimentas </a>
+                 </li>
+
+                 <li class="col-md-2">
+                   <a><i class="fas fa-dice"></i><br> Brinquedos </a>
+                 </li>
+
+                 <li class="col-md-2">
+                   <a href="carrinho.php"><i class="fas fa-cart-plus"></i><br> Carrinho </a>
+                 </li>
+                 <!769 - 992> <!992 - 1226>
+            </ul>
+          </div>
+
+        </nav>
+    </div>
+  </section>
     
+  <section class="sec-cadastro">
+      <div class="container">
+          <h2 class="tit-cadastro">Cadastre-se já!</h2>
+      </div>
+  </section>
 
  <section id="rodape">
       <div class="container">
@@ -55,7 +123,7 @@
 
     <div id="rodape-inf" style="background-color: rgb(231, 230, 228);"> 
         <article class="inf-text">
-          <h1>Loja do SidSan</h1>
+          <h3>Loja do SidSan</h3>
           <p>Sidnei Santiago - Todos os direitos reservados</p>
           <p>Salvador, 06/03/2019</p>
           <p><i class="far fa-envelope" style="font-size: 14pt;"></i> sidnei1.8santiago@hotmail.com </p> 
