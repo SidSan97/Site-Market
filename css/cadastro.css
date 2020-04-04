@@ -7,6 +7,38 @@ body
 .tit-cadastro
 {
     text-align: center;
-    color: #292d30;
+    color: #323538;
     margin-bottom: 3%;
+}
+
+.interface-cad
+{
+    padding-top: 3%;
+    border: 0.5px silver solid;
+    border-radius: 5px;
+    min-width: 50%;
+}
+
+.interface-cad input
+{
+    width: 100%;
+    height: 45px;
+    border-radius: 5px;
+    border: #17a2b8 0.5px solid;
+    padding-left: 3%;
+}
+
+.info
+{
+    text-align: center;
+    color: #323538;
+    margin-bottom: 3%;
+}
+
+@media(max-width: 991px)
+{
+    .col-md-5
+    {
+        margin-left: 0;
+    }
 }

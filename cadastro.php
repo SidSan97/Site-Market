@@ -15,10 +15,11 @@
   <link rel="stylesheet" type="text/css" href="css/all.css">
   <link rel="stylesheet" type="text/css" href="css/xiaomi.css">
   <link rel="stylesheet" type="text/css" href="css/login.css">
+  <link rel="stylesheet" type="text/css" href="css/cadastro.css">
     <title>Cadastre-se</title>
 </head>
  <body>
- <section style="background-color: #ffc107;">
+  <section style="background-color: #ffc107;">
       <div class="container">
          <nav class="navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand" href="index.php"><img src="assets/logomercado.png" height="80px" width="80px"></a>
@@ -40,7 +41,7 @@
            </div>
         </nav>
      </div>
-  </section>
+   </section>
 
   <section class="div-navbar">
     <div class="container">
@@ -84,7 +85,92 @@
     
   <section class="sec-cadastro">
       <div class="container">
-          <h2 class="tit-cadastro">Cadastre-se já!</h2>
+        <h2 class="tit-cadastro">Cadastre-se já!</h2>
+
+        <div class="interface-cad">
+          <form action="">
+            <div class="row">
+              <div class="col-lg-5 mb-4">
+                <label for="user">Informe seu nome</label>
+                <input type="text" name="usuario" id="user">
+              </div>
+
+              <div class="col-lg-5 mb-4">
+                <label for="sb">Informe sobrenome</label>
+                <input type="text" name="sobrenome" id="sb">
+              </div>
+            </div>
+
+            <div class="row" style="margin-bottom: 5%">
+              <div class="col-lg-5 mb-4">
+                <label for="email">Crie uma senha para o cadastro</label>
+                <input type="password" name="senha" id="senha">
+              </div>
+
+              <div class="col-lg-5 mb-4">
+                <label for="senha">Repita a senha</label>
+                <input type="password" id="senha">
+              </div>
+            </div>
+
+            <h3 class="info">Informações Adicionais</h3>
+
+            <div class="row">
+              <div class="col-lg-5 mb-4">
+                <label for="tel">Telefone para contato</label>
+                <input type="text" name="telefone" id="tel">
+              </div>
+
+              <div class="col-lg-5 mb-4">
+                <label for="email">Informe seu E-mail</label>
+                <input type="email" name="email" id="email">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-5 mb-4">
+                <label for="cep">Digite seu CEP</label>
+                <input type="text" name="cep" id="cep">
+              </div>
+
+              <div class="col-lg-5 mb-4">
+                <label for="estado">Estado</label>
+                <select id="estado" name="estado">
+                  <option value="AC">AC</option>
+                  <option value="AL">Al</option>
+                  <option value="AP">AP</option>
+                  <option value="AM">AM</option>
+                  <option value="BA">BA</option>
+                  <option value="CE">CE</option>
+                  <option value="DF">DF</option>
+                  <option value="ES">ES</option>
+                  <option value="GO">GO</option>
+                  <option value="MA">MA</option>
+                  <option value="MT">MT</option>
+                  <option value="MS">MS</option>
+                  <option value="MG">MG</option>
+                  <option value="PA">PA</option>
+                  <option value="PB">PB</option>
+                  <option value="PR">PR</option>
+                  <option value="PE">PE</option>
+                  <option value="PI">PI</option>
+
+                  <option value="RJ">RJ</option>
+                  <option value="RN">RN</option>
+                  <option value="RS">RS</option>
+                  <option value="RO">RO</option>
+                  <option value="RR">RR</option>
+                  <option value="SC">SC</option>
+                  <option value="SP">SP</option>
+                  <option value="SE">SE</option>
+                  <option value="TO">TO</option>
+              </select>
+
+              </div>
+            </div>
+            
+          </form>  
+        </div>
       </div>
   </section>
 
