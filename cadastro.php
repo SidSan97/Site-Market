@@ -118,7 +118,7 @@
             <div class="row">
               <div class="col-lg-5 mb-4">
                 <label for="tel">Telefone para contato</label>
-                <input type="text" name="telefone" id="tel">
+                <input type="tel" name="telefone" id="tel">
               </div>
 
               <div class="col-lg-5 mb-4">
@@ -129,12 +129,25 @@
 
             <div class="row">
               <div class="col-lg-5 mb-4">
-                <label for="cep">Digite seu CEP</label>
-                <input type="text" name="cep" id="cep">
+                <label for="cpf">Digite seu CPF</label>
+                <input type="text" name="cpf" id="cpf">
               </div>
 
-              <div class="col-lg-5 mb-4">
-                <label for="estado">Estado</label>
+              <div class="col-lg-5 mb-4">                
+                <label for="nasc">*Ano de nascimento</label>
+                <input id="nasc" type="date" name="nasc">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-5 mb-4">                             
+                <label for="genero">*Genêro</label>
+                <select id="genero" name="genero">
+                  <option value="H">Homem</option>
+                  <option value="M">Mulher</option>
+                </select>
+
+                <!--label class="offset-2" for="estado">Estado</label>
                 <select id="estado" name="estado">
                   <option value="AC">AC</option>
                   <option value="AL">Al</option>
@@ -154,7 +167,6 @@
                   <option value="PR">PR</option>
                   <option value="PE">PE</option>
                   <option value="PI">PI</option>
-
                   <option value="RJ">RJ</option>
                   <option value="RN">RN</option>
                   <option value="RS">RS</option>
@@ -164,9 +176,51 @@
                   <option value="SP">SP</option>
                   <option value="SE">SE</option>
                   <option value="TO">TO</option>
-              </select>
-
+                </select-->  
               </div>
+
+              <div class="col-lg-5 mb-4">                
+                <label for="nasc">*Informe seu CEP</label>
+                <input id="cep" type="text" name="cep">
+              </div>
+            </div>
+
+              <h3 class="info">Informações de Endereço</h3>
+
+            <div class="row">  
+              <div class="col-lg-5 mb-4">                
+                <label for="ender">*Informe seu endereço</label>
+                <input id="ender" type="text" name="ender">
+              </div> 
+              
+              <div class="col-lg-5 mb-4">                
+                <label for="num">*Informe o numero</label>
+                <input id="num" type="text" name="num">
+              </div>     
+            </div>
+
+            <div class="row">  
+              <div class="col-lg-5 mb-4">                
+                <label for="bairro">*Informe o Bairro</label>
+                <input id="bairro" type="text" name="bairro">
+              </div> 
+              
+              <div class="col-lg-5 mb-4">                
+                <label for="cid">*Informe a cidade</label>
+                <input id="cid" type="text" name="cid">
+              </div>     
+            </div>
+
+            <div class="row">  
+              <div class="col-lg-5 mb-4">                
+                <label for="estado">*Estado</label>
+                <input id="estado" type="text" name="estado">
+              </div> 
+              
+              <div class="col-lg-5 mb-4">                
+                <label for="comp">*Complemento</label>
+                <input id="comp" type="text" name="comp">
+              </div>     
             </div>
             
           </form>  
