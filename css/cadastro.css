@@ -14,9 +14,11 @@ body
 .interface-cad
 {
     padding-top: 3%;
-    border: 0.5px silver solid;
-    border-radius: 5px;
+    padding-left: 14%;
+    border: 0.5px #17a2b8 solid;
+    border-radius: 10px;
     min-width: 50%;
+    background-color: white;
 }
 
 .interface-cad input 
@@ -37,9 +39,42 @@ body
     padding-left: 3%;
 }
 
+.interface-cad button
+{
+    width: 200px;
+    padding: 10px;
+    background-color: orange;
+    border-radius: 10px;
+    margin-left: 30%;
+    margin-bottom: 3%;
+    border: 0;
+    color: rgb(48, 111, 206);
+    font-size: 16px;
+    font-family: Montserrat,sans-serif;
+    font-weight: 700;
+}
+
+.interface-cad button a:link
+{
+    text-decoration: none;
+}
+
+.interface-cad button a:hover
+{
+    color: white;
+}
+
+.interface-cad label
+{
+    font-size: 15px;
+    font-family: Titillium Web,sans-serif;
+    font-weight: 700;
+    color: #4e5b6e;
+}
+
 .info
 {
-    text-align: center;
+    margin-left: 27%;
     color: #515c6f;
     margin-bottom: 3%;
 }
@@ -51,8 +86,16 @@ body
 
 @media(max-width: 991px)
 {
-    .col-md-5
+    .interface-cad 
+    {
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+
+    .info
     {
         margin-left: 0;
+        text-align: center;
+
     }
 }

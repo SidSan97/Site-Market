@@ -91,25 +91,25 @@
           <form action="">
             <div class="row">
               <div class="col-lg-5 mb-4">
-                <label for="user">Informe seu nome</label>
-                <input type="text" name="usuario" id="user">
+                <label for="user">*Informe seu nome</label>
+                <input type="text" name="usuario" id="user" require>
               </div>
 
               <div class="col-lg-5 mb-4">
-                <label for="sb">Informe sobrenome</label>
-                <input type="text" name="sobrenome" id="sb">
+                <label for="sb">*Informe sobrenome</label>
+                <input type="text" name="sobrenome" id="sb" require>
               </div>
             </div>
 
             <div class="row" style="margin-bottom: 5%">
               <div class="col-lg-5 mb-4">
-                <label for="email">Crie uma senha para o cadastro</label>
-                <input type="password" name="senha" id="senha">
+                <label for="email">*Crie uma senha para o cadastro</label>
+                <input type="password" name="senha" id="senha" require>
               </div>
 
               <div class="col-lg-5 mb-4">
-                <label for="senha">Repita a senha</label>
-                <input type="password" id="senha">
+                <label for="senha">*Repita a senha</label>
+                <input type="password" id="senha" require>
               </div>
             </div>
 
@@ -117,71 +117,40 @@
 
             <div class="row">
               <div class="col-lg-5 mb-4">
-                <label for="tel">Telefone para contato</label>
-                <input type="tel" name="telefone" id="tel">
+                <label for="tel">*Telefone para contato</label>
+                <input type="tel" name="telefone" id="tel" require>
               </div>
 
               <div class="col-lg-5 mb-4">
-                <label for="email">Informe seu E-mail</label>
-                <input type="email" name="email" id="email">
+                <label for="email">*Informe seu E-mail</label>
+                <input type="email" name="email" id="email" require>
               </div>
             </div>
 
             <div class="row">
               <div class="col-lg-5 mb-4">
-                <label for="cpf">Digite seu CPF</label>
-                <input type="text" name="cpf" id="cpf">
+                <label for="cpf">*Digite seu CPF</label>
+                <input type="text" name="cpf" id="cpf" require>
               </div>
 
               <div class="col-lg-5 mb-4">                
                 <label for="nasc">*Ano de nascimento</label>
-                <input id="nasc" type="date" name="nasc">
+                <input id="nasc" type="date" name="nasc" require>
               </div>
             </div>
 
-            <div class="row">
+            <div class="row" style="margin-bottom: 5%">
               <div class="col-lg-5 mb-4">                             
                 <label for="genero">*Genêro</label>
-                <select id="genero" name="genero">
+                <select id="genero" name="genero" require>
                   <option value="H">Homem</option>
                   <option value="M">Mulher</option>
-                </select>
-
-                <!--label class="offset-2" for="estado">Estado</label>
-                <select id="estado" name="estado">
-                  <option value="AC">AC</option>
-                  <option value="AL">Al</option>
-                  <option value="AP">AP</option>
-                  <option value="AM">AM</option>
-                  <option value="BA">BA</option>
-                  <option value="CE">CE</option>
-                  <option value="DF">DF</option>
-                  <option value="ES">ES</option>
-                  <option value="GO">GO</option>
-                  <option value="MA">MA</option>
-                  <option value="MT">MT</option>
-                  <option value="MS">MS</option>
-                  <option value="MG">MG</option>
-                  <option value="PA">PA</option>
-                  <option value="PB">PB</option>
-                  <option value="PR">PR</option>
-                  <option value="PE">PE</option>
-                  <option value="PI">PI</option>
-                  <option value="RJ">RJ</option>
-                  <option value="RN">RN</option>
-                  <option value="RS">RS</option>
-                  <option value="RO">RO</option>
-                  <option value="RR">RR</option>
-                  <option value="SC">SC</option>
-                  <option value="SP">SP</option>
-                  <option value="SE">SE</option>
-                  <option value="TO">TO</option>
-                </select-->  
+                </select>              
               </div>
 
               <div class="col-lg-5 mb-4">                
                 <label for="nasc">*Informe seu CEP</label>
-                <input id="cep" type="text" name="cep">
+                <input id="cep" type="text" name="cep" require>
               </div>
             </div>
 
@@ -190,38 +159,40 @@
             <div class="row">  
               <div class="col-lg-5 mb-4">                
                 <label for="ender">*Informe seu endereço</label>
-                <input id="ender" type="text" name="ender">
+                <input id="ender" type="text" name="ender" require>
               </div> 
               
               <div class="col-lg-5 mb-4">                
                 <label for="num">*Informe o numero</label>
-                <input id="num" type="text" name="num">
+                <input id="num" type="text" name="num" require>
               </div>     
             </div>
 
             <div class="row">  
               <div class="col-lg-5 mb-4">                
                 <label for="bairro">*Informe o Bairro</label>
-                <input id="bairro" type="text" name="bairro">
+                <input id="bairro" type="text" name="bairro" require>
               </div> 
               
               <div class="col-lg-5 mb-4">                
                 <label for="cid">*Informe a cidade</label>
-                <input id="cid" type="text" name="cid">
+                <input id="cid" type="text" name="cid" require>
               </div>     
             </div>
 
             <div class="row">  
               <div class="col-lg-5 mb-4">                
                 <label for="estado">*Estado</label>
-                <input id="estado" type="text" name="estado">
+                <input id="estado" type="text" name="estado" require>
               </div> 
               
               <div class="col-lg-5 mb-4">                
                 <label for="comp">*Complemento</label>
-                <input id="comp" type="text" name="comp">
+                <input id="comp" type="text" name="comp" require>
               </div>     
             </div>
+
+            <button type="submit"><a href="#">CONCLUIR CADASTRO</a></button>
             
           </form>  
         </div>
