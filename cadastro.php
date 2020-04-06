@@ -88,7 +88,7 @@
         <h2 class="tit-cadastro">Cadastre-se já!</h2>
 
         <div class="interface-cad">
-          <form action="">
+          <form action="cadastrar.php" method="POST">
             <div class="row">
               <div class="col-lg-5 mb-4">
                 <label for="user">*Informe seu nome</label>
