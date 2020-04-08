@@ -46,7 +46,7 @@ include('verifica_login.php');
                       else:                      
                    ?>
                     <div id="label">
-                      Olá, <?php echo $_SESSION['usuario']; ?> <button id="btn-user"><a href="login.php"> <i class="fas fa-user"></i> Sair </a></button>
+                      Olá, <?php echo $_SESSION['usuario']; ?> <button id="btn-user"><a href="logout.php"> <i class="fas fa-user"></i> Sair </a></button>
                     </div>                           
                      
                     <?php

@@ -8,7 +8,7 @@ $senha     = mysqli_real_escape_string($conexao, trim(md5($_POST['senha'])));
 $telefone  = mysqli_real_escape_string($conexao, $_POST['telefone']);
 $email     = mysqli_real_escape_string($conexao, $_POST['email']);
 $cpf       = mysqli_real_escape_string($conexao, $_POST['cpf']);
-$data      = date('Y-m-d', strtotime($data));
+//$data      = date('Y-m-d', strtotime($data));
 $data      = mysqli_real_escape_string($conexao, $_POST['nasc']);
 $genero    = mysqli_real_escape_string($conexao, $_POST['genero']);
 $cep       = mysqli_real_escape_string($conexao, $_POST['cep']);
@@ -33,17 +33,36 @@ if($row['total'] == 1)
 
 $sql = "INSERT INTO usuario (usuario, sobrenome, senha, email, telefone, genero, cpf, cep,
                     nascimento, endereco, numero, bairro, cidade, estado, complemento,
-                    data_cadastro) VALUES ('$nome', $sobrenome, '$senha', '$email', '$telefone',
-                    '$genero', '$cpf', '$cep', '$data', '$endereco', '$numero',' '$bairro', '$cidade', '$estado',
-                    '$comp', NOW())";
+                    data_cadastro) VALUES (
+                    '" . $nome . "', 
+                    '" . $sobrenome . "',
+                    '" . $senha . "', 
+                    '" . $email . "', 
+                    '" . $telefone . "',
+                    '" . $genero . "', 
+                    '" . $cpf . "', 
+                    '" . $cep . "', 
+                    '" . $data . "', 
+                    '" . $endereco . "', 
+                    '" . $numero . "', 
+                    '" . $bairro . "', 
+                    '" . $cidade . "', 
+                    '" . $estado . "',
+                    '" . $comp . "', 
+                    NOW())";
 
 if($conexao->query($sql) === TRUE)
 {
     $_SESSION['status_cadastro'] = true;
+    echo "Cadastro feito com sucesso!";
 } 
+
+else
+echo "Cadastro nao realizado";
+ error_reporting(3);
 
 $conexao->close();
 
-header('Location: login.php');
+//header('Location: login.php');
 exit;
 ?>

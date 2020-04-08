@@ -42,7 +42,7 @@ session_start();
            </div>
         </nav>
      </div>
-   </section>
+  </section>
 
   <section class="div-navbar">
     <div class="container">
