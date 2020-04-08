@@ -1,0 +1,10 @@
+
+
+                    
+                    
+                    
+ 
+
+select * from usuario            
+
+
