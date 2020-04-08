@@ -1,6 +1,7 @@
 <?php
-
+session_start();
 ?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -88,7 +89,7 @@
         <h2 class="tit-cadastro">Cadastre-se já!</h2>
 
         <div class="interface-cad">
-          <form action="cadastrar.php" method="POST">
+          <form method="POST" action="cadastrar.php">
             <div class="row">
               <div class="col-lg-5 mb-4">
                 <label for="user">*Informe seu nome</label>
@@ -103,7 +104,7 @@
 
             <div class="row" style="margin-bottom: 5%">
               <div class="col-lg-5 mb-4">
-                <label for="email">*Crie uma senha para o cadastro</label>
+                <label for="senha">*Crie uma senha para o cadastro</label>
                 <input type="password" name="senha" id="senha" require>
               </div>
 
@@ -192,7 +193,7 @@
               </div>     
             </div>
 
-            <button type="submit"><a href="#">CONCLUIR CADASTRO</a></button>
+            <button type="submit">CONCLUIR CADASTRO</button>
             
           </form>  
         </div>
