@@ -90,7 +90,7 @@ session_start();
         <h3 class="h3"> Já sou cliente </h3>
 
           <form class="login-form" method="POST" action="login_user.php">           
-            <input class="input" type="text" placeholder="Email " name="usuario"/>          
+            <input class="input" type="text" placeholder="Email" name="usuario"/>          
             <input class="input" type="password" placeholder="Senha" name="senha"/> 
             
             <label id="checkword"> 

@@ -193,9 +193,30 @@ session_start();
               </div>     
             </div>
 
-            <button type="submit">CONCLUIR CADASTRO</button>
-            
-          </form>  
+            <button type="submit">CONCLUIR CADASTRO</button>  
+            <?php
+              if($_SESSION['status_cadastro'] = true):
+             ?>
+             <div class="notification2" style="background-color: green">
+                 <p>Cadastro efetuado!</p>
+                 <p>Faça o login clicando <a href="login.php">aqui</a></p> 
+             </div>
+             <?php
+              endif;
+              unset($_SESSION['status_cadastro']);
+             ?>
+             <?php 
+               if($_SESSION['usuario_existe']):
+             ?>                     
+             <div class="notification2" style="background-color: red">
+               <p>Usuário já existe. Cheque novamente os dados!</p>
+             </div>
+             <?php
+              endif;
+              unset($_SESSION['usuario_existe']);
+             ?>
+          </form> 
+             
         </div>
       </div>
   </section>
