@@ -20,7 +20,7 @@ $estado    = mysqli_real_escape_string($conexao, $_POST['estado']);
 $comp      = mysqli_real_escape_string($conexao, $_POST['comp']);
 
 //CONSULTA SE HÁ OUTRO USUARIO COM MESMO CPF
-$sql    = "select count(*) as total from usuario where usuario = '$nome'";
+/*$sql    = "select count(*) as total from usuario where usuario = '$cpf'";
 $result = mysqli_query($conexao, $sql);
 $row = mysqli_fetch_assoc($result);
 
@@ -30,7 +30,7 @@ if($row['total'] == 1)
     header('Location: cadastro.php');
     exit;
 }
-
+*/
 $sql = "INSERT INTO usuario (usuario, sobrenome, senha, email, telefone, genero, cpf, cep,
                     nascimento, endereco, numero, bairro, cidade, estado, complemento,
                     data_cadastro) VALUES (
