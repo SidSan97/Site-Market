@@ -20,7 +20,7 @@ $estado    = mysqli_real_escape_string($conexao, $_POST['estado']);
 $comp      = mysqli_real_escape_string($conexao, $_POST['comp']);
 
 //CONSULTA SE HÁ OUTRO USUARIO COM MESMO CPF
-$sql    = "select count(*) as total from usuario where usuario = '$cpf'";
+$sql    = "select count(*) as total from usuario where usuario = '$nome'";
 $result = mysqli_query($conexao, $sql);
 $row = mysqli_fetch_assoc($result);
 
@@ -59,7 +59,7 @@ if($conexao->query($sql) === TRUE)
 
 else
 echo "Cadastro nao realizado";
- error_reporting(3);
+echo $sql;
 
 $conexao->close();
 

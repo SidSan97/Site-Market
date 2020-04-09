@@ -1,2 +1,2 @@
 # Site Market
-Projeto site de supermercado FRONT-END
+Projeto site de supermercado 
