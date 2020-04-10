@@ -88,8 +88,7 @@ session_start();
       <div class="container">
         <h2 class="tit-cadastro">Cadastre-se já!</h2>
 
-        <div class="interface-cad">
-             <?php
+        <?php
               if(isset($_SESSION['status_cadastro'])):
              ?>
              <div class="notification2" style="background-color: green;">
@@ -113,7 +112,8 @@ session_start();
               endif;           
               unset($_SESSION['usuario_existe']);
              ?>
-             
+
+        <div class="interface-cad">          
           <form method="POST" action="cadastrar.php">
             <div class="row">
               <div class="col-lg-5 mb-4">
