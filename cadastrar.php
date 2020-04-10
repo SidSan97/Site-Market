@@ -20,7 +20,7 @@ $estado    = mysqli_real_escape_string($conexao, $_POST['estado']);
 $comp      = mysqli_real_escape_string($conexao, $_POST['comp']);
 
 //CONSULTA SE HÁ OUTRO USUARIO COM MESMO CPF
-$sql    = "select count(*) as total from usuario where usuario = '$cpf'";
+$sql    = "select cpf, count(*) from usuario group by cpf having count(*) > 1 ";
 $result = mysqli_query($conexao, $sql);
 $row = mysqli_fetch_assoc($result);
 
