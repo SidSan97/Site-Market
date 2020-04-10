@@ -89,6 +89,31 @@ session_start();
         <h2 class="tit-cadastro">Cadastre-se já!</h2>
 
         <div class="interface-cad">
+             <?php
+              if(isset($_SESSION['status_cadastro'])):
+             ?>
+             <div class="notification2" style="background-color: green;">
+                 <span>Cadastro efetuado!</span><br>
+                 <span>Faça o login clicando <a href="login.php">aqui</a></span> 
+             </div>
+
+             <?php
+              endif;
+              unset($_SESSION['status_cadastro']);        
+             ?>
+
+             <?php 
+              if(isset($_SESSION['usuario_existe'])):
+             ?>                     
+             <div class="notification2" style="background-color: red">
+               <p>Usuário já existe. Cheque novamente os dados!</p>
+             </div>
+
+             <?php
+              endif;           
+              unset($_SESSION['usuario_existe']);
+             ?>
+             
           <form method="POST" action="cadastrar.php">
             <div class="row">
               <div class="col-lg-5 mb-4">
@@ -193,30 +218,8 @@ session_start();
               </div>     
             </div>
 
-            <button type="submit">CONCLUIR CADASTRO</button>  
-            <?php
-              if($_SESSION['status_cadastro'] = true):
-             ?>
-             <div class="notification2" style="background-color: green">
-                 <p>Cadastro efetuado!</p>
-                 <p>Faça o login clicando <a href="login.php">aqui</a></p> 
-             </div>
-             <?php
-              endif;
-              unset($_SESSION['status_cadastro']);
-             ?>
-             <?php 
-               if($_SESSION['usuario_existe']):
-             ?>                     
-             <div class="notification2" style="background-color: red">
-               <p>Usuário já existe. Cheque novamente os dados!</p>
-             </div>
-             <?php
-              endif;
-              unset($_SESSION['usuario_existe']);
-             ?>
-          </form> 
-             
+            <button type="submit">CONCLUIR CADASTRO</button>           
+          </form>             
         </div>
       </div>
   </section>

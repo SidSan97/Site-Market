@@ -63,5 +63,5 @@ die($conexao->error);
 }
 
 $conexao->close();
-header('Location: login.php');
+header('Location: cadastro.php');
 exit;
