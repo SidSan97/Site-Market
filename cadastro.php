@@ -144,7 +144,7 @@ session_start();
             <div class="row">
               <div class="col-lg-5 mb-4">
                 <label for="tel">*Telefone para contato</label>
-                <input type="tel" name="telefone" id="tel" require>
+                <input type="tel" name="telefone" id="tel" onkeypress="$(this).mask('(00) 00000-00000')" maxlength="15" require>
               </div>
 
               <div class="col-lg-5 mb-4">
@@ -156,7 +156,7 @@ session_start();
             <div class="row">
               <div class="col-lg-5 mb-4">
                 <label for="cpf">*Digite seu CPF</label>
-                <input type="text" name="cpf" id="cpf" require>
+                <input type="text" name="cpf" id="cpf" onkeypress="$(this).mask('000.000.000-00');" maxlength="14" require>
               </div>
 
               <div class="col-lg-5 mb-4">                
@@ -176,7 +176,7 @@ session_start();
 
               <div class="col-lg-5 mb-4">                
                 <label for="nasc">*Informe seu CEP</label>
-                <input id="cep" type="text" name="cep" require>
+                <input id="cep" type="text" name="cep" onkeypress="$(this).mask('00.000-000')" maxlength="10" require>
               </div>
             </div>
 
@@ -209,7 +209,7 @@ session_start();
             <div class="row">  
               <div class="col-lg-5 mb-4">                
                 <label for="estado">*Estado</label>
-                <input id="estado" type="text" name="estado" require>
+                <input id="estado" type="text" name="estado" maxlength="2" require>
               </div> 
               
               <div class="col-lg-5 mb-4">                
@@ -267,6 +267,7 @@ session_start();
     </div>
 
     <script src="js/jquery-3.3.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
     <script src="js/popper.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/script.js"></script>
