@@ -20,11 +20,11 @@ $estado    = mysqli_real_escape_string($conexao, $_POST['estado']);
 $comp      = mysqli_real_escape_string($conexao, $_POST['comp']);
 
 //CONSULTA SE HÁ OUTRO USUARIO COM MESMO CPF
-$sql    = "select cpf, count(*) from usuario group by cpf having count(*) > 1 ";
+$sql = "SELECT * FROM usuario WHERE cpf = '{$cpf}'";
 $result = mysqli_query($conexao, $sql);
 $row = mysqli_fetch_assoc($result);
 
-if($row['total'] == 1)
+if($row > 0)
 {
     $_SESSION['usuario_existe'] = true;
     header('Location: cadastro.php');
