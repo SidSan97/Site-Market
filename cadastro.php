@@ -138,9 +138,21 @@ session_start();
 
               <div class="col-lg-5 mb-4">
                 <label for="senha">*Repita a senha</label>
-                <input type="password" id="senha" required>
-              </div>
+                <input type="password" name="senha2" id="senha2" required>
+              </div>           
             </div>
+
+             <?php 
+              if(isset($_SESSION['senhas_diferentes'])):
+             ?>                     
+             <div class="notification2" style="background-color: red">
+               <p> As senhas inseridas são diferentes </p>
+             </div>
+
+             <?php
+              endif;           
+              unset($_SESSION['senhas_diferentes']);
+             ?>
 
             <h3 class="info">Informações Adicionais</h3>
 
