@@ -121,24 +121,24 @@ session_start();
             <div class="row">
               <div class="col-lg-5 mb-4">
                 <label for="user">*Informe seu nome</label>
-                <input type="text" name="usuario" id="user" require>
+                <input type="text" name="usuario" id="user" autofocus required>
               </div>
 
               <div class="col-lg-5 mb-4">
                 <label for="sb">*Informe sobrenome</label>
-                <input type="text" name="sobrenome" id="sb" require>
+                <input type="text" name="sobrenome" id="sb" autofocus required>
               </div>
             </div>
 
             <div class="row" style="margin-bottom: 5%">
               <div class="col-lg-5 mb-4">
                 <label for="senha">*Crie uma senha para o cadastro</label>
-                <input type="password" name="senha" id="senha" require>
+                <input type="password" name="senha" id="senha" autofocus required>
               </div>
 
               <div class="col-lg-5 mb-4">
                 <label for="senha">*Repita a senha</label>
-                <input type="password" id="senha" require>
+                <input type="password" id="senha" required>
               </div>
             </div>
 
@@ -147,31 +147,31 @@ session_start();
             <div class="row">
               <div class="col-lg-5 mb-4">
                 <label for="tel">*Telefone para contato</label>
-                <input type="tel" name="telefone" id="tel" onkeypress="$(this).mask('(00) 00000-00000')" maxlength="15" require>
+                <input type="tel" name="telefone" id="tel" onkeypress="$(this).mask('(00) 00000-00000')" maxlength="15" required>
               </div>
 
               <div class="col-lg-5 mb-4">
                 <label for="email">*Informe seu E-mail</label>
-                <input type="email" name="email" id="email" require>
+                <input type="email" name="email" id="email" required>
               </div>
             </div>
 
             <div class="row">
               <div class="col-lg-5 mb-4">
                 <label for="cpf">*Digite seu CPF</label>
-                <input type="text" name="cpf" id="cpf" onkeypress="$(this).mask('000.000.000-00');" maxlength="14" require>
+                <input type="text" name="cpf" id="cpf" onkeypress="$(this).mask('000.000.000-00');" maxlength="14" required>
               </div>
 
               <div class="col-lg-5 mb-4">                
                 <label for="nasc">*Ano de nascimento</label>
-                <input id="nasc" type="date" name="nasc" require>
+                <input id="nasc" type="date" name="nasc" required>
               </div>
             </div>
 
             <div class="row" style="margin-bottom: 5%">
               <div class="col-lg-5 mb-4">                             
                 <label for="genero">*Genêro</label>
-                <select id="genero" name="genero" require>
+                <select id="genero" name="genero" required>
                   <option value="H">Homem</option>
                   <option value="M">Mulher</option>
                 </select>              
@@ -179,7 +179,8 @@ session_start();
 
               <div class="col-lg-5 mb-4">                
                 <label for="nasc">*Informe seu CEP</label>
-                <input id="cep" type="text" name="cep" onkeypress="$(this).mask('00.000-000')" maxlength="10" require>
+                <input id="cep" type="text" name="cep" onkeypress="$(this).mask('00.000-000')" maxlength="10" required>
+                <a target="_blank" href="http://www.buscacep.correios.com.br/sistemas/buscacep/resultadoBuscaCepEndereco.cfm">Não sei meu CEP</a>
               </div>
             </div>
 
@@ -188,36 +189,36 @@ session_start();
             <div class="row">  
               <div class="col-lg-5 mb-4">                
                 <label for="ender">*Informe seu endereço</label>
-                <input id="ender" type="text" name="ender" require>
+                <input id="ender" type="text" name="ender" required>
               </div> 
               
               <div class="col-lg-5 mb-4">                
                 <label for="num">*Informe o numero</label>
-                <input id="num" type="text" name="num" require>
+                <input id="num" type="text" name="num" required>
               </div>     
             </div>
 
             <div class="row">  
               <div class="col-lg-5 mb-4">                
                 <label for="bairro">*Informe o Bairro</label>
-                <input id="bairro" type="text" name="bairro" require>
+                <input id="bairro" type="text" name="bairro" required>
               </div> 
               
               <div class="col-lg-5 mb-4">                
                 <label for="cid">*Informe a cidade</label>
-                <input id="cid" type="text" name="cid" require>
+                <input id="cid" type="text" name="cid" required>
               </div>     
             </div>
 
             <div class="row">  
               <div class="col-lg-5 mb-4">                
                 <label for="estado">*Estado</label>
-                <input id="estado" type="text" name="estado" maxlength="2" require>
+                <input id="estado" type="text" name="estado" maxlength="2" readonly="readonly" required>
               </div> 
               
               <div class="col-lg-5 mb-4">                
                 <label for="comp">*Complemento</label>
-                <input id="comp" type="text" name="comp" require>
+                <input id="comp" type="text" name="comp" required>
               </div>     
             </div>
 
