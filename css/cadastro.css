@@ -59,7 +59,7 @@ body
     text-decoration: none;
 }
 
-.interface-cad button a:hover
+.interface-cad button:hover
 {
     color: white;
 }
