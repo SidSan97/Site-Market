@@ -20,6 +20,9 @@ session_start();
     <title>Cadastre-se</title>
 </head>
  <body>
+  <!--Script Jquery para API do CEP-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
   <section style="background-color: #ffc107;">
       <div class="container">
          <nav class="navbar navbar-expand-lg navbar-light">
@@ -265,6 +268,29 @@ session_start();
           <p><i class="far fa-envelope" style="font-size: 14pt;"></i> sidnei1.8santiago@hotmail.com </p> 
         </article>
     </div>
+
+    <script type="text/javascript">
+		$("#cep").focusout(function(){
+			//Início do Comando AJAX
+			$.ajax({
+			
+				url: 'https://viacep.com.br/ws/'+$(this).val()+'/json/unicode/',
+			
+				dataType: 'json',
+				
+				success: function(resposta){
+					
+					$("#ender").val(resposta.logradouro);
+					$("#comp").val(resposta.complemento);
+					$("#bairro").val(resposta.bairro);
+					$("#cid").val(resposta.localidade);
+					$("#estado").val(resposta.uf);
+					
+					$("#numero").focus();
+				}
+			});
+		});
+	</script>
 
     <script src="js/jquery-3.3.1.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
