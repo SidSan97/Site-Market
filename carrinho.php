@@ -82,8 +82,8 @@ include('verifica_login.php');
                       <tr>                     
                         <td>
                             <img src="assets/xiaomi.jpg" width="64px" height="64px" alt="Xiaomi" align="left">
-                               Xiaomi Mi 9 Lite Dual SIM 128 GB Branco-pérola <br>
-                               6 GB RAM câmera de 48 megapixel 
+                              Xiaomi Mi 9 Lite Dual SIM 128 GB Branco-pérola <br>
+                              6 GB RAM câmera de 48 megapixel 
                         </td>
 
                         <td>
@@ -132,7 +132,7 @@ include('verifica_login.php');
             <h2> R$ 999,00 </h2>
         </span>
 
-        <a href="index.php" class="home">Página Inicial</a>
+        <a href="index.php" class="home"><i class="fas fa-home"> Página Inicial </i></a>
 
         <section id="rodape">
             <div class="container">
