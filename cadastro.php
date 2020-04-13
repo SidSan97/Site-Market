@@ -149,11 +149,22 @@ session_start();
                <p> As senhas inseridas são diferentes </p>
              </div>
 
+             <script>
+              const fieldMessage = document.querySelector("#senha");
+              const fieldMessage2 = document.querySelector("#senha2");
+
+              if(fieldMessage !== fieldMessage2) 
+                {
+                  fieldMessage.classList.add("alert-input");
+                  fieldMessage2.classList.add("alert-input");
+                }             
+             </script>
+
              <?php
               endif;           
               unset($_SESSION['senhas_diferentes']);
              ?>
-
+         
             <h3 class="info">Informações Adicionais</h3>
 
             <div class="row">

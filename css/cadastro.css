@@ -4,6 +4,12 @@ body
     padding: 0;
 }
 
+.alert-input
+{
+    border: 2px solid red;
+    box-shadow: 0 0 5px red;
+}
+
 .tit-cadastro
 {
     text-align: center;
