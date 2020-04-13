@@ -90,8 +90,14 @@ include('verifica_login.php');
                             <p> entregue em até <br><span style="font-weight: bold;"> dia útil R$ 0,00 </span></p>
                         </td>
 
-                        <td>
-                            <input type="number" id="quantity" name="quantity" min="1" max="5" value="1">
+                        <td>                         
+                            <select id="quantidade" onchange="valorTotal()">
+                              <option value="1">1</option>
+                              <option value="2">2</option>
+                              <option value="3">3</option>
+                              <option value="4">4</option>
+                              <option value="5">5</option>
+                            </select>
                         </td>
 
                         <td>
@@ -99,7 +105,7 @@ include('verifica_login.php');
                         </td>
 
                         <td>
-                            <h5 style="color: red;">R$ 999,00</h5>
+                            <h5 id="total-Qtd" style="color: red;">R$ 999,00</h5>
                         </td>
 
                         <td>
@@ -129,7 +135,7 @@ include('verifica_login.php');
 
         <span align="center" class="artg-comp">
             <h4>Total da sua compra</h4> <br>
-            <h2> R$ 999,00 </h2>
+            <h2 id="total-Compra"> R$ 999,00 </h2>
         </span>
 
         <a href="index.php" class="home"><i class="fas fa-home"> Página Inicial </i></a>
@@ -137,7 +143,7 @@ include('verifica_login.php');
         <section id="rodape">
             <div class="container">
               <div class="row">
-                <div class="col-4" style="text-align: center;">
+                <div class="col-lg-4" style="text-align: center;">
                    <h5>Dúvidas</h5>
                    <a href="#"><p>Central de Atendimento</p></a>
                    <a href="#"><p>Sobre a Entrega</p></a>
@@ -146,7 +152,7 @@ include('verifica_login.php');
                    <a href="#"><p>Política de Privacidade</p></a>
                 </div>
       
-                <div class="col-4" style="text-align: center;">
+                <div class="col-lg-4" style="text-align: center;">
                   <h5>Serviços</h5>
                   <a href="#"><p>Marketplace</p></a>
                   <a href="#"><p>Baixe nosso App</p></a>
@@ -155,7 +161,7 @@ include('verifica_login.php');
                   <a href="#"><p>Cartão de Crédito</p></a>
                 </div> 
       
-                <div class="col-4" style="text-align: center;" id="RS-icons">
+                <div class="col-lg-4" style="text-align: center;" id="RS-icons">
                   <h5>Redes Sociais e Contato</h5>
                   <a href="#"><p><i class="fab fa-facebook-square"></i></p></a>
                   <a href="#"><p><i class="fab fa-instagram"></i></p></a>
@@ -173,7 +179,17 @@ include('verifica_login.php');
                 <p>Salvador, 06/03/2019</p>
                 <p><i class="far fa-envelope" style="font-size: 14pt;"></i> sidnei1.8santiago@hotmail.com </p> 
               </article>
-          </div>    
+          </div> 
+          
+    <script>
+      function valorTotal()
+     {                   
+        var valorSelect = document.getElementById("quantidade").value;            
+        var total   = valorSelect * 999; 
+        document.getElementById("total-Qtd").innerHTML = "R$ " + total + ",00";  
+        document.getElementById("total-Compra").innerHTML = "R$ " + total + ",00";         
+     }       
+    </script>         
 
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/popper.js"></script>
