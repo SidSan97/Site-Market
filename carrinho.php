@@ -82,8 +82,8 @@ include('verifica_login.php');
                       <tr>                     
                         <td>
                             <img src="assets/xiaomi.jpg" width="64px" height="64px" alt="Xiaomi" align="left">
-                                Xiaomi Mi 9 Lite Dual SIM 128 GB Branco-pérola <br>
-                                6 GB RAM câmera de 48 megapixel 
+                               Xiaomi Mi 9 Lite Dual SIM 128 GB Branco-pérola <br>
+                               6 GB RAM câmera de 48 megapixel 
                         </td>
 
                         <td>
