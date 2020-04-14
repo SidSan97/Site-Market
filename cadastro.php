@@ -148,17 +148,8 @@ session_start();
              <div class="notification2" style="background-color: red">
                <p> As senhas inseridas são diferentes </p>
              </div>
-
-             <script>
-              const fieldMessage = document.querySelector("#senha");
-              const fieldMessage2 = document.querySelector("#senha2");
-
-              if(fieldMessage !== fieldMessage2) 
-                {
-                  fieldMessage.classList.add("alert-input");
-                  fieldMessage2.classList.add("alert-input");
-                }             
-             </script>
+             
+             <script src="js/ScriptSite.js"></script>          
 
              <?php
               endif;           
