@@ -181,16 +181,7 @@ include('verifica_login.php');
               </article>
           </div> 
           
-    <script>
-      function valorTotal()
-     {                   
-        var valorSelect = document.getElementById("quantidade").value;            
-        var total   = valorSelect * 999; 
-        document.getElementById("total-Qtd").innerHTML = "R$ " + total + ",00";  
-        document.getElementById("total-Compra").innerHTML = "R$ " + total + ",00";         
-     }       
-    </script>         
-
+    <script src="js/ScriptSite.js"></script>
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/popper.js"></script>
     <script src="js/bootstrap.js"></script>
