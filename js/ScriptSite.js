@@ -15,4 +15,5 @@ if(fieldMessage !== fieldMessage2)
 {
     fieldMessage.classList.add("alert-input");
     fieldMessage2.classList.add("alert-input");
-}             
+}  
+           
