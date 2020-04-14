@@ -148,7 +148,7 @@ session_start();
              <div class="notification2" style="background-color: red">
                <p> As senhas inseridas são diferentes </p>
              </div>
-             
+
              <script src="js/ScriptSite.js"></script>          
 
              <?php
@@ -274,7 +274,6 @@ session_start();
       </div>
   </section>
 
-
     <div id="rodape-inf" style="background-color: rgb(231, 230, 228);"> 
         <article class="inf-text">
           <h3>Loja do SidSan</h3>
@@ -282,31 +281,9 @@ session_start();
           <p>Salvador, 06/03/2019</p>
           <p><i class="far fa-envelope" style="font-size: 14pt;"></i> sidnei1.8santiago@hotmail.com </p> 
         </article>
-    </div>
+    </div>   
 
-    <script type="text/javascript">
-		$("#cep").focusout(function(){
-			//Início do Comando AJAX
-			$.ajax({
-			
-				url: 'https://viacep.com.br/ws/'+$(this).val()+'/json/unicode/',
-			
-				dataType: 'json',
-				
-				success: function(resposta){
-					
-					$("#ender").val(resposta.logradouro);
-					$("#comp").val(resposta.complemento);
-					$("#bairro").val(resposta.bairro);
-					$("#cid").val(resposta.localidade);
-					$("#estado").val(resposta.uf);
-					
-					$("#numero").focus();
-				}
-			});
-		});
-	</script>
-
+    <script src="js/API-CEP.js"></script>
     <script src="js/jquery-3.3.1.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
     <script src="js/popper.js"></script>
