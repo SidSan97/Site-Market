@@ -112,10 +112,10 @@ include('verifica_login.php');
                   <img src="assets/xiaomi.jpg">
                     <h6>
                       Xiaomi Mi 9 Lite Dual SIM 128 GB Branco-pérola 6 GB RAM câmera de 48 megapixel
-                    </h6>   <br>                                      
+                    </h6>  <br>                                      
                              
-                     <article>
-                         <strike>de R$ 1.900,00</strike> 
+                    <article>
+                        <strike>de R$ 1.900,00</strike> 
                         <h4>por R$ 1.180,00</h4>
                         <p>ou <span>12x de R$ 100,00</span> sem juros</p>
                     </article>
