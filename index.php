@@ -112,14 +112,32 @@ include('verifica_login.php');
                   <img src="assets/xiaomi.jpg">
                     <h6>
                       Xiaomi Mi 9 Lite Dual SIM 128 GB Branco-pérola 6 GB RAM câmera de 48 megapixel
-                    </h6>  <br>                                      
+                    </h6></a>  <br> 
+
+                    <div class="estrelas">
+                      <input type="radio" id="vazio" name="estrela" value="" checked>
+				
+				              <label for="estrela_um"><i class="fa"></i></label>
+				              <input type="radio" id="estrela_um" name="estrela" value="1">
+				
+				              <label for="estrela_dois"><i class="fa"></i></label>
+				              <input type="radio" id="estrela_dois" name="estrela" value="2">
+				
+				              <label for="estrela_tres"><i class="fa"></i></label>
+				              <input type="radio" id="estrela_tres" name="estrela" value="3">
+				
+				              <label for="estrela_quatro"><i class="fa"></i></label>
+				              <input type="radio" id="estrela_quatro" name="estrela" value="4">
+				
+				              <label for="estrela_cinco"><i class="fa"></i></label>
+				              <input type="radio" id="estrela_cinco" name="estrela" value="5"> 
+                    </div>                                   
                              
                     <article>
                         <strike>de R$ 1.900,00</strike> 
                         <h4>por R$ 1.180,00</h4>
                         <p>ou <span>12x de R$ 100,00</span> sem juros</p>
-                    </article>
-                </a>
+                    </article>               
               </div>
 
               <div class="produtos col-sm mr-2 mb-2">
