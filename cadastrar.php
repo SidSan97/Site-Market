@@ -5,7 +5,7 @@ include('conexao.php');
 $nome      = mysqli_real_escape_string($conexao, trim($_POST['usuario']));
 $sobrenome = mysqli_real_escape_string($conexao, trim($_POST['sobrenome']));
 $senha     = mysqli_real_escape_string($conexao, trim(md5($_POST['senha'])));
-$senha2    = $_POST['senha2'];
+$senha2    = mysqli_real_escape_string($conexao, trim(md5($_POST['senha2'])));
 $telefone  = mysqli_real_escape_string($conexao, $_POST['telefone']);
 $email     = mysqli_real_escape_string($conexao, $_POST['email']);
 $cpf       = mysqli_real_escape_string($conexao, $_POST['cpf']);
