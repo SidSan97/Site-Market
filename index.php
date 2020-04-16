@@ -113,25 +113,14 @@ include('verifica_login.php');
                     <h6>
                       Xiaomi Mi 9 Lite Dual SIM 128 GB Branco-pérola 6 GB RAM câmera de 48 megapixel
                     </h6></a>  <br> 
-
+                    
                     <div class="estrelas">
-                      <input type="radio" id="vazio" name="estrela" value="" checked>
-				
-				              <label for="estrela_um"><i class="fa"></i></label>
-				              <input type="radio" id="estrela_um" name="estrela" value="1">
-				
-				              <label for="estrela_dois"><i class="fa"></i></label>
-				              <input type="radio" id="estrela_dois" name="estrela" value="2">
-				
-				              <label for="estrela_tres"><i class="fa"></i></label>
-				              <input type="radio" id="estrela_tres" name="estrela" value="3">
-				
-				              <label for="estrela_quatro"><i class="fa"></i></label>
-				              <input type="radio" id="estrela_quatro" name="estrela" value="4">
-				
-				              <label for="estrela_cinco"><i class="fa"></i></label>
-				              <input type="radio" id="estrela_cinco" name="estrela" value="5"> 
-                    </div>                                   
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                    </div>
                              
                     <article>
                         <strike>de R$ 1.900,00</strike> 
@@ -146,7 +135,15 @@ include('verifica_login.php');
                     <h6>
                       Refrigerador | Geladeira Top Freezer Com Dispenser
                       de Água Platinum 400L (DW44S) 
-                    </h6> <br>
+                    </h6> <br> 
+                    
+                    <div class="estrelas">
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star"></span>
+                    </div>
 
                     <article>
                         de R$ 3.149,00 
@@ -164,6 +161,14 @@ include('verifica_login.php');
                       Bluetooth, HDR Premium, HDMI e USB
                     </h6> <br>
 
+                    <div class="estrelas">
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star"></span>
+                    </div>
+
                     <article>
                         de R$ 2.699,00 
                         <h4>por R$ 1.899,00</h4>
@@ -179,6 +184,14 @@ include('verifica_login.php');
                       Notebook Lenovo Ideapad S145-15IGM - Intel Dual Core 4GB 500GB 15,6” Windows 10
                     </h6> <br>
 
+                    <div class="estrelas">
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star"></span>
+                    </div>
+                  
                     <article>
                         de R$ 1.999,00 
                         <h4>por R$ 1.230,00</h4>
@@ -194,7 +207,15 @@ include('verifica_login.php');
                   <img src="assets/vinho.jpg">
                     <h6>
                       Vinho tinto Lenotti Amarone Delle Valpolicella Clássico 
-                   </h6>   <br><br>            
+                    </h6>   <br><br> 
+                    
+                    <div class="estrelas">
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star"></span>
+                    </div>
                              
                      <article>
                         de R$ 425,00 
@@ -211,6 +232,14 @@ include('verifica_login.php');
                       Pneu Pirelli Aros 15/ 17/ 18/ 20 Scorpion MTR 31X10.5R15 109Q
                     </h6> <br><br>
 
+                    <div class="estrelas">
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                    </div>
+                   
                     <article>
                         de R$ 749,00 
                         <h4>por R$ 669,00</h4>
@@ -226,6 +255,14 @@ include('verifica_login.php');
                       Console PS4 1TB Edição Family + 2 controles + 7 jogos
                     </h6> <br><br>
 
+                    <div class="estrelas">
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star"></span>
+                    </div>
+                   
                     <article>
                         de R$ 1.699,00 
                         <h4>por R$ 999,00</h4>
@@ -239,7 +276,15 @@ include('verifica_login.php');
                   <img src="assets/papicat.jpg">
                     <h6>
                       Areia Sanitária Kelco Pipicat Multicat - 12 Kg - 12 Kg
-                    </h6> <br><br>
+                    </h6> <br><br>  
+                    
+                    <div class="estrelas">
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                    </div>
 
                     <article>
                         de R$ 39,00 

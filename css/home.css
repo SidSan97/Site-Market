@@ -117,6 +117,11 @@ body
     border: rgba(221, 220, 220, 0.815) 1px solid;
 }
 
+.checked
+{
+    color: orange;
+}
+
 .produtos:hover
 {
     border: 1px solid rgb(151, 151, 151);
@@ -174,23 +179,6 @@ body
     border-right: none;
     padding-left: 5%;
     margin-bottom: 1%;
-}
-
-.estrelas input[type = radio]
-{
-    display: none;
-
-}
-
-.estrelas label i.fa:before
-{
-    content: '\f005';
-    color: rgb(231, 231, 2);
-}
-
-.estrelas input[type = radio]:checked ~ label i.fa:before
-{
-    color: #ccc;
 }
 
 @media(max-width: 1009px)
