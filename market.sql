@@ -1,10 +1,10 @@
 
 
-                    
-                    
+select * from usuario
+
+         
                     
  
-
-select * from usuario            
+        
 
 
