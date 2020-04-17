@@ -298,7 +298,7 @@ include('verifica_login.php');
            <div class="row">
              <form action="">
                 <h4>Se inscreva para receber nossas ofertas por email</h4>
-                <input type="text" class="input-inscrito" name="input-inscrito">
+                <input type="text" class="input-inscrito" name="input-inscrito" placeholder="Digite o seu email">
                 <button type="submit" class="btn-inscrito"> Enviar </button>
              </form>
            </div>

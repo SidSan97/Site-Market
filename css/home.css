@@ -181,6 +181,27 @@ body
     margin-bottom: 1%;
 }
 
+.input-inscrito
+{
+    height: 45px;
+    width: 300px;
+    border: 1px solid #17a2b8;
+    border-radius: 10px;
+    padding-left: 2%;
+    margin-bottom: 1%;
+}
+
+.btn-inscrito
+{
+    border: none;
+    height: 40px;
+    width: 75px;
+    border-radius: 8px;
+    background-color: #17a2b8;
+    color: white;
+    font-weight: bold;
+}
+
 @media(max-width: 1009px)
 {
     #form
