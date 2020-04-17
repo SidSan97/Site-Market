@@ -34,7 +34,7 @@ session_start();
             <div class="collapse navbar-collapse" id="conteudoNavbarSuportado3">
               <form id="form" class="form-inline my-2 my-lg-0">
                 <div id="search">
-                  <input type="search" placeholder="O que você procura?" id="input">
+                  <input type="search" placeholder="O que você procura?" id="caixa-pesquisa">
                     <button  type="submit" id="button"> <i class="fas fa-search"></i> </button>
                 </div>      
 

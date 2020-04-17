@@ -31,7 +31,7 @@ include('verifica_login.php');
             <div class="collapse navbar-collapse" id="conteudoNavbarSuportado1">
               <form id="form" class="form-inline my-2 my-lg-0">
                 <div id="search">
-                  <input type="search" placeholder="O que você procura?" id="input">
+                  <input type="search" placeholder="O que você procura?" id="caixa-pesquisa">
                     <button  type="submit" id="button"> <i class="fas fa-search"></i> </button>
                 </div>  
                      
@@ -201,7 +201,7 @@ include('verifica_login.php');
               </div>
            </div>
      <!----------NOVA LINHA---------->
-            <div class="row">
+            <div class="row mb-3">
               <div class="produtos col-sm mr-2 mb-2">
                 <a>
                   <img src="assets/vinho.jpg">
@@ -293,6 +293,14 @@ include('verifica_login.php');
                     </article>
                 </a>
               </div>
+           </div>
+
+           <div class="row">
+             <form action="">
+                <h4>Se inscreva para receber nossas ofertas por email</h4>
+                <input type="text" class="input-inscrito" name="input-inscrito">
+                <button type="submit" class="btn-inscrito"> Enviar </button>
+             </form>
            </div>
         </div>
    </section>
