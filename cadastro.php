@@ -245,7 +245,7 @@ session_start();
  <section id="rodape">
       <div class="container">
         <div class="row">
-          <div class="col-4" style="text-align: center;">
+          <div class="col-lg-4 mb-2" style="text-align: center;">
              <h5>Dúvidas</h5>
              <a href="#"><p>Central de Atendimento</p></a>
              <a href="#"><p>Sobre a Entrega</p></a>
@@ -254,7 +254,7 @@ session_start();
              <a href="#"><p>Política de Privacidade</p></a>
           </div>
 
-          <div class="col-4" style="text-align: center;">
+          <div class="col-lg-4 mb-2" style="text-align: center;">
             <h5>Serviços</h5>
             <a href="#"><p>Marketplace</p></a>
             <a href="#"><p>Baixe nosso App</p></a>
@@ -263,7 +263,7 @@ session_start();
             <a href="#"><p>Cartão de Crédito</p></a>
           </div> 
 
-          <div class="col-4" style="text-align: center;" id="RS-icons">
+          <div class="col-lg-4 mb-2" style="text-align: center;" id="RS-icons">
             <h5>Redes Sociais e Contato</h5>
             <a href="#"><p><i class="fab fa-facebook-square"></i></p></a>
             <a href="#"><p><i class="fab fa-instagram"></i></p></a>
