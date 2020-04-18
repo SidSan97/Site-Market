@@ -161,7 +161,7 @@ session_start();
             <div class="row">
               <div class="col-lg-5 mb-4">
                 <label for="tel">*Telefone para contato</label>
-                <input type="tel" name="telefone" id="tel" onkeypress="$(this).mask('(00) 00000-00000')" maxlength="15" required>
+                <input type="tel" name="telefone" id="tel" onkeypress="$(this).mask('(00) 00000-0000')" maxlength="15" required>
               </div>
 
               <div class="col-lg-5 mb-4">
@@ -193,7 +193,7 @@ session_start();
 
               <div class="col-lg-5 mb-4">                
                 <label for="nasc">*Informe seu CEP</label>
-                <input id="cep" type="text" name="cep" onkeypress="$(this).mask('00.000-000')" maxlength="10" required>
+                <input id="cep" type="text" name="cep" onkeypress="$(this).mask('00000-000')" maxlength="10" required>
                 <a target="_blank" href="http://www.buscacep.correios.com.br/sistemas/buscacep/resultadoBuscaCepEndereco.cfm">Não sei meu CEP</a>
               </div>
             </div>
@@ -227,7 +227,37 @@ session_start();
             <div class="row">  
               <div class="col-lg-5 mb-4">                
                 <label for="estado">*Estado</label>
-                <input id="estado" type="text" name="estado" maxlength="2" readonly="readonly" required>
+                <!--input id="estado" type="text" name="estado" maxlength="2" readonly="readonly" required-->
+                <select id="estado" name="estado" required>
+                  <option value="AC">Acre</option>
+                  <option value="AL">Alagoas</option>
+                  <option value="AP">Amapá</option>
+                  <option value="AM">Amazonas</option>
+                  <option value="BA">Bahia</option>
+                  <option value="CE">Ceará</option>
+                  <option value="DF">Distrito Federal</option>
+                  <option value="ES">Espírito Santo</option>
+                  <option value="GO">Goiás</option>
+                  <option value="MA">Maranhão</option>
+                  <option value="MT">Mato Grosso</option>
+                  <option value="MS">Mato Grosso do Sul</option>
+                  <option value="MG">Minas Gerais</option>
+                  <option value="PA">Pará</option>
+                  <option value="PB">Paraíba</option>
+                  <option value="PR">Paraná</option>
+                  <option value="PE">Pernambuco</option>
+                  <option value="PI">Piauí</option>
+                  <option value="RJ">Rio de Janeiro</option>
+                  <option value="RN">Rio Grande do Norte</option>
+                  <option value="RS">Rio Grande do Sul</option>
+                  <option value="RO">Rondônia</option>
+                  <option value="RR">Roraima</option>
+                  <option value="SC">Santa Catarina</option>
+                  <option value="SP">São Paulo</option>
+                  <option value="SE">Sergipe</option>
+                  <option value="TO">Tocantins</option>
+                  <option value="EX">Estrangeiro</option>
+                </select>
               </div> 
               
               <div class="col-lg-5 mb-4">                
